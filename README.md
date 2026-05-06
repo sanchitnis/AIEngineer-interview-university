@@ -60,7 +60,7 @@
 
 ## What is it?
 
-![AI Engineering - building intelligent systems at scale](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
+<img src="https://github.com/user-attachments/assets/5ee086cc-8412-4cd8-90f7-0386b1bfdaa0">
 
 This is a multi-month study plan for becoming an **AI Engineer** at a top technology company.
 
