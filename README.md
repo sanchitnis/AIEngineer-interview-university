@@ -92,6 +92,33 @@ For a complete CS self-taught program, the resources for my study plan have been
 - [Coding Question Practice](#coding-question-practice)
 - [Coding Problems](#coding-problems)
 
+### AI Engineer Essentials
+
+- [AI-native SDLC & Spec-Driven Development](#ai-native-sdlc--spec-driven-development)
+- [Work Environment & Portfolio Building](#work-environment--portfolio-building)
+    - [Git & GitHub](#git--github)
+    - [Development Environment & Tooling](#development-environment--tooling)
+    - [Full-Stack Development Basics](#full-stack-development-basics)
+    - [Building & Showcasing Your Portfolio](#building--showcasing-your-portfolio)
+- [System Thinking & Software Architecture](#system-thinking--software-architecture)
+    - [Architectural Thinking](#architectural-thinking)
+    - [Software Architecture Patterns](#software-architecture-patterns)
+    - [AI System Design](#ai-system-design)
+- [Cloud Concepts for Data Engineering](#cloud-concepts-for-data-engineering)
+    - [Cloud Fundamentals](#cloud-fundamentals)
+    - [Data Engineering on the Cloud](#data-engineering-on-the-cloud)
+    - [MLOps & AI Infrastructure](#mlops--ai-infrastructure)
+- [Core Human Life Skills for the AI Era](#core-human-life-skills-for-the-ai-era)
+    - [Communication & Storytelling](#communication--storytelling)
+    - [Critical Thinking & Problem Framing](#critical-thinking--problem-framing)
+    - [Adaptability & Continuous Learning](#adaptability--continuous-learning)
+    - [Collaboration & Emotional Intelligence](#collaboration--emotional-intelligence)
+- [deeplearning.ai Learning Path](#deeplearningai-learning-path)
+    - [Foundational AI & ML](#foundational-ai--ml)
+    - [Generative AI & LLMs](#generative-ai--llms)
+    - [MLOps & Deployment](#mlops--deployment)
+    - [AI for Everyone](#ai-for-everyone)
+
 ### Topics of Study
 
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
@@ -564,6 +591,343 @@ Challenge/Practice sites:
     - very math-focused, and not really suited for coding interviews
 
 **[⬆ back to top](#table-of-contents)**
+
+---
+
+## AI-native SDLC & Spec-Driven Development
+
+In the AI era, the way software is built has fundamentally changed. AI Engineers are expected to work with **Spec-Driven Development** — defining what needs to be built precisely (in natural language or structured specs) before writing a single line of code, then using AI tools to accelerate implementation. This mirrors how senior engineers think: design first, code second.
+
+### What is Spec-Driven Development?
+
+Spec-Driven Development means writing a clear, detailed specification of the system — its inputs, outputs, edge cases, and acceptance criteria — **before** implementation begins. AI coding assistants (GitHub Copilot, Cursor, Claude, etc.) work best when given precise specs.
+
+- [ ] [Specification by Example (Martin Fowler)](https://martinfowler.com/bliki/SpecificationByExample.html)
+- [ ] [What is Spec-Driven Development?](https://blog.stoplight.io/spec-driven-development)
+- [ ] [Writing Good Technical Specifications (video)](https://www.youtube.com/watch?v=a2n0XQa0OLw)
+- [ ] [How to Write a Technical Design Doc](https://medium.com/machine-words/writing-technical-design-docs-71f446e42f2e)
+- [ ] [RFC-style documents: How Big Tech teams design before coding](https://www.industrialempathy.com/posts/design-docs-at-google/)
+
+### AI-native SDLC Stages
+
+The modern AI Engineer SDLC differs from traditional waterfall or agile:
+
+1. **Problem Definition** — Frame the problem clearly. What is the desired outcome? Who are the users?
+2. **Spec Writing** — Write a structured specification (user stories, data contracts, API schema, acceptance tests).
+3. **AI-Assisted Design** — Use LLMs to generate architecture proposals, data models, and pseudocode from specs.
+4. **AI-Assisted Implementation** — Use AI coding tools (Copilot, Cursor, Aider) for code generation; review every output critically.
+5. **Testing & Validation** — AI-generated tests + human review. Always verify AI output against the original spec.
+6. **Iteration** — Short cycles; update the spec when requirements change, not just the code.
+
+- [ ] [How to Use GitHub Copilot Effectively (official guide)](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)
+- [ ] [Prompt Engineering for Developers - deeplearning.ai (free course)](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
+- [ ] [Cursor AI Editor - Getting Started](https://www.cursor.com/docs)
+- [ ] [Aider: AI pair programming in your terminal](https://aider.chat/)
+- [ ] [Software Engineering with AI: Practical Tips (video)](https://www.youtube.com/watch?v=fjHtjT7GO1c)
+
+### Test-Driven Development (TDD) + AI
+
+TDD is even more powerful in the AI era: write tests first, then let AI write the implementation.
+
+- [ ] [Test-Driven Development: By Example (Kent Beck)](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530)
+- [ ] [TDD with AI coding assistants (video)](https://www.youtube.com/watch?v=Jv2uxzhPFl4)
+- [ ] [pytest for Python — official docs](https://docs.pytest.org/en/stable/)
+
+### Version Control Workflows
+
+- [ ] [Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
+- [ ] [Conventional Commits specification](https://www.conventionalcommits.org/)
+- [ ] [Writing good commit messages](https://cbea.ms/git-commit/)
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Work Environment & Portfolio Building
+
+AI Engineers are judged as much on **what they have built** as on what they know. A strong portfolio demonstrating real projects, clean code, and deployed applications matters enormously. This section covers the essential work environment and portfolio skills.
+
+### Git & GitHub
+
+Mastery of Git and GitHub is non-negotiable. Interviewers look at your GitHub profile.
+
+- [ ] [Git - The Simple Guide](https://rogerdudler.github.io/git-guide/)
+- [ ] [Pro Git Book (free, official)](https://git-scm.com/book/en/v2)
+- [ ] [Learn Git Branching (interactive)](https://learngitbranching.js.org/)
+- [ ] [GitHub Skills — official interactive courses](https://skills.github.com/)
+- [ ] [GitHub Actions — CI/CD basics](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
+- [ ] [GitHub Copilot — setup and usage](https://docs.github.com/en/copilot/quickstart)
+- [ ] [How to contribute to open source](https://opensource.guide/how-to-contribute/)
+
+#### Practical exercises:
+- [ ] Create a GitHub profile README showcasing your skills and projects
+- [ ] Contribute a pull request to any open-source project (even documentation)
+- [ ] Set up a GitHub Actions workflow for a project (lint, test, deploy)
+
+### Development Environment & Tooling
+
+- [ ] [Visual Studio Code — getting started](https://code.visualstudio.com/docs/introvideos/basics)
+- [ ] [VS Code for Python](https://code.visualstudio.com/docs/python/python-tutorial)
+- [ ] [Docker for Developers (free course)](https://www.youtube.com/watch?v=fqMOX6JJhGo)
+- [ ] [Dev Containers in VS Code](https://code.visualstudio.com/docs/devcontainers/containers)
+- [ ] [Virtual environments in Python (venv, conda)](https://realpython.com/python-virtual-environments-a-primer/)
+- [ ] [Makefile tutorial for project automation](https://makefiletutorial.com/)
+- [ ] [Linux command line basics (free LabEx tutorial)](https://labex.io/tutorials/practice-linux-commands-hands-on-labs-398420)
+
+### Full-Stack Development Basics
+
+AI Engineers increasingly need to wrap their models in usable applications. You don't need to be a full-stack expert, but you need enough to ship demos and prototypes.
+
+**Backend / APIs:**
+- [ ] [FastAPI tutorial (Python — build REST APIs quickly)](https://fastapi.tiangolo.com/tutorial/)
+- [ ] [RESTful API design best practices](https://restfulapi.net/)
+- [ ] [Flask for Machine Learning APIs (real-world tutorial)](https://towardsdatascience.com/deploying-a-machine-learning-model-as-a-rest-api-4a03b865c166)
+
+**Frontend / UI for AI apps:**
+- [ ] [Streamlit — build data apps in Python (official tutorial)](https://docs.streamlit.io/get-started)
+- [ ] [Gradio — ML demo UIs in minutes](https://www.gradio.app/guides/quickstart)
+- [ ] [Next.js basics (if you want a proper web frontend)](https://nextjs.org/learn)
+
+**Databases:**
+- [ ] [SQL basics — Mode Analytics tutorial](https://mode.com/sql-tutorial/)
+- [ ] [SQLite + Python quickstart](https://docs.python.org/3/library/sqlite3.html)
+- [ ] [PostgreSQL for beginners](https://www.postgresqltutorial.com/)
+- [ ] [Vector databases explained (Pinecone)](https://www.pinecone.io/learn/vector-database/)
+
+### Building & Showcasing Your Portfolio
+
+- [ ] [How to build a compelling data science / AI portfolio](https://towardsdatascience.com/how-to-build-a-data-science-portfolio-5f566517c79c)
+- [ ] [Building AI portfolio projects that get noticed (video)](https://www.youtube.com/watch?v=1aXk2RViq3c)
+- [ ] [Writing a great project README](https://www.makeareadme.com/)
+- [ ] [HuggingFace Spaces — deploy and share your ML models for free](https://huggingface.co/spaces)
+- [ ] [Vercel — deploy web apps for free](https://vercel.com/docs)
+
+#### Suggested portfolio project ideas:
+- [ ] End-to-end ML pipeline: data → model → REST API → simple UI
+- [ ] RAG (Retrieval-Augmented Generation) chatbot over a custom document set
+- [ ] Fine-tuned open-source LLM for a specific domain
+- [ ] Real-time data dashboard with cloud storage backend
+- [ ] CLI or web tool that automates a tedious task using an LLM
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## System Thinking & Software Architecture
+
+In the AI era, even freshers are expected to think architecturally. Companies want engineers who can reason about entire systems — not just write functions. This section trains you to think like a senior architect from day one.
+
+### Architectural Thinking
+
+- [ ] [Fundamentals of Software Architecture (Richards & Ford)](https://www.oreilly.com/library/view/fundamentals-of-software/9781663728357/) — essential read
+- [ ] [The System Design Primer (GitHub)](https://github.com/donnemartin/system-design-primer) — the most comprehensive free resource
+- [ ] [System Design Introduction (video — Gaurav Sen)](https://www.youtube.com/watch?v=xpDnVSmNFX0&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [ ] [Thinking in Systems: A Primer (Donella Meadows)](https://www.amazon.com/Thinking-Systems-Donella-H-Meadows/dp/1603580557) — mental model for complex systems
+- [ ] [How to approach system design interviews](https://www.youtube.com/watch?v=bUHFg8CZFws)
+
+### Software Architecture Patterns
+
+- [ ] [Microservices vs Monolith — when to use what](https://martinfowler.com/articles/microservices.html)
+- [ ] [Event-driven architecture explained](https://www.youtube.com/watch?v=STKCRSUsyP0)
+- [ ] [API Gateway pattern](https://microservices.io/patterns/apigateway.html)
+- [ ] [CQRS and Event Sourcing](https://martinfowler.com/bliki/CQRS.html)
+- [ ] [The 12-Factor App methodology](https://12factor.net/)
+- [ ] [Clean Architecture (Robert Martin)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- [ ] [Domain-Driven Design crash course (video)](https://www.youtube.com/watch?v=4rhzdZIDX_k)
+
+### AI System Design
+
+Designing AI systems is a distinct discipline. These resources specifically address ML/AI architectural decisions.
+
+- [ ] [Designing Machine Learning Systems (Chip Huyen)](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/) — **highly recommended**
+- [ ] [ML System Design Template (by Chip Huyen)](https://huyenchip.com/machine-learning-systems-design/toc.html) — free online
+- [ ] [Machine Learning System Design Interview (Aminian & Xu)](https://www.amazon.com/Machine-Learning-System-Design-Interview/dp/1736049127)
+- [ ] [Full Stack Deep Learning — System Design lectures (free)](https://fullstackdeeplearning.com/course/2022/)
+- [ ] [Patterns for Building LLM-based Systems & Products](https://eugeneyan.com/writing/llm-patterns/)
+- [ ] [MLOps: From Model-centric to Data-centric AI (Andrew Ng)](https://www.youtube.com/watch?v=06-AZXmwHjo)
+
+#### AI system design practice problems:
+- [ ] Design a real-time recommendation engine (YouTube, TikTok)
+- [ ] Design a document search system with semantic search (RAG)
+- [ ] Design an LLM-powered customer support chatbot at scale
+- [ ] Design a fraud detection system with ML scoring
+- [ ] Design a CI/CD pipeline for ML models (MLOps pipeline)
+- [ ] Design a feature store for a large-scale ML platform
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Cloud Concepts for Data Engineering
+
+AI Engineers must be comfortable with cloud platforms. Data lives in the cloud; models train in the cloud; inference runs in the cloud. This section covers the cloud knowledge required to do serious data engineering and AI work.
+
+### Cloud Fundamentals
+
+Pick one cloud provider to start with (AWS, GCP, or Azure). The concepts transfer across all three.
+
+- [ ] [AWS Cloud Practitioner Essentials (free, official)](https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/)
+- [ ] [Google Cloud Fundamentals: Core Infrastructure (Coursera)](https://www.coursera.org/learn/gcp-fundamentals)
+- [ ] [Microsoft Azure Fundamentals (AZ-900) — free learning path](https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-cloud-concepts/)
+- [ ] [Cloud Computing Concepts (Coursera — University of Illinois)](https://www.coursera.org/learn/cloud-computing)
+
+#### Key concepts to understand:
+- [ ] Compute: VMs, containers, serverless (Lambda/Cloud Functions/Azure Functions)
+- [ ] Storage: object storage (S3/GCS/Blob), block storage, data lakes
+- [ ] Networking: VPCs, load balancers, CDNs, security groups
+- [ ] IAM: identity, roles, permissions, least-privilege principle
+- [ ] Pricing models: on-demand, reserved, spot/preemptible instances
+
+### Data Engineering on the Cloud
+
+- [ ] [Data Engineering Zoomcamp (free, DataTalks.Club)](https://github.com/DataTalksClub/data-engineering-zoomcamp) — **best free end-to-end resource**
+- [ ] [Fundamentals of Data Engineering (Reis & Housley)](https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/)
+- [ ] [Apache Spark basics (PySpark)](https://spark.apache.org/docs/latest/api/python/getting_started/index.html)
+- [ ] [dbt (data build tool) — transform data in your warehouse](https://docs.getdbt.com/docs/introduction)
+- [ ] [Apache Airflow — workflow orchestration](https://airflow.apache.org/docs/apache-airflow/stable/tutorial/index.html)
+- [ ] [Kafka fundamentals for streaming data](https://kafka.apache.org/documentation/#gettingStarted)
+- [ ] [Data Lake vs Data Warehouse vs Lakehouse explained](https://www.databricks.com/discover/data-lakes/introduction)
+
+#### Cloud-specific data tools:
+- [ ] **AWS**: S3, Glue, Athena, Redshift, SageMaker, Lambda
+- [ ] **GCP**: BigQuery, Dataflow, Vertex AI, Cloud Storage, Pub/Sub
+- [ ] **Azure**: Azure Data Factory, Synapse Analytics, Azure ML, Blob Storage
+
+### MLOps & AI Infrastructure
+
+- [ ] [MLOps Zoomcamp (free, DataTalks.Club)](https://github.com/DataTalksClub/mlops-zoomcamp)
+- [ ] [MLflow: open-source MLOps platform](https://mlflow.org/docs/latest/index.html)
+- [ ] [Weights & Biases — experiment tracking](https://docs.wandb.ai/)
+- [ ] [Kubernetes basics for ML engineers](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+- [ ] [Docker + Kubernetes for ML (video)](https://www.youtube.com/watch?v=R-3dfURb2hA)
+- [ ] [Deploying ML models with FastAPI + Docker](https://towardsdatascience.com/how-to-deploy-a-machine-learning-model-with-fastapi-docker-and-github-actions-13374cbd638a)
+- [ ] [Terraform basics — infrastructure as code](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)
+- [ ] [GitHub Actions for ML CI/CD pipelines](https://docs.github.com/en/actions/use-cases-and-examples/publishing-packages/publishing-docker-images)
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Core Human Life Skills for the AI Era
+
+As AI automates more technical tasks, **human skills become the primary differentiator**. The engineers who thrive in the AI era are those who can think clearly, communicate compellingly, collaborate empathetically, and adapt continuously. These are not soft skills — they are survival skills.
+
+### Communication & Storytelling
+
+In an AI-augmented world, your ability to **explain complex ideas clearly** — to non-technical stakeholders, teammates, and interviewers — is priceless.
+
+- [ ] [The Pyramid Principle: Logic in Writing and Thinking (Barbara Minto)](https://www.amazon.com/Pyramid-Principle-Logic-Writing-Thinking/dp/0273710516) — the gold standard for structured communication
+- [ ] [Talk Like TED: The 9 Public-Speaking Secrets (Carmine Gallo)](https://www.amazon.com/Talk-TED-Public-Speaking-Secrets/dp/1250061539)
+- [ ] [How to speak (MIT lecture by Patrick Winston)](https://www.youtube.com/watch?v=Unzc731iCUY) — legendary talk on effective communication
+- [ ] [Toastmasters — practice public speaking](https://www.toastmasters.org/)
+- [ ] [Writing Well: a guide for engineers](https://www.julian.com/guide/write/intro)
+- [ ] [Technical writing for engineers (Google course, free)](https://developers.google.com/tech-writing)
+
+### Critical Thinking & Problem Framing
+
+The most dangerous mistake an AI Engineer can make is solving the **wrong problem** brilliantly.
+
+- [ ] [Thinking, Fast and Slow (Daniel Kahneman)](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555) — cognitive biases and decision-making
+- [ ] [The Art of Problem Solving (Russell Ackoff)](https://www.youtube.com/watch?v=f-un9ym6Ru4) — classic talk on problem framing
+- [ ] [First Principles Thinking (Elon Musk, Tim Urban)](https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html)
+- [ ] [How to Think (Yale course on the science of well-being)](https://www.coursera.org/learn/the-science-of-well-being)
+- [ ] [Mental Models (Farnam Street)](https://fs.blog/mental-models/)
+- [ ] [The OODA Loop: observe, orient, decide, act](https://en.wikipedia.org/wiki/OODA_loop)
+
+### Adaptability & Continuous Learning
+
+The half-life of technical knowledge is shrinking. The skill that matters most is **learning how to learn**.
+
+- [ ] [Learning How to Learn (Coursera — Barbara Oakley)](https://www.coursera.org/learn/learning-how-to-learn) — **most enrolled MOOC in history**
+- [ ] [A Mind for Numbers: How to Excel at Math and Science (Barbara Oakley)](https://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra/dp/039916524X)
+- [ ] [Peak: Secrets from the New Science of Expertise (Anders Ericsson)](https://www.amazon.com/Peak-Secrets-New-Science-Expertise/dp/0544456238) — deliberate practice
+- [ ] [Range: Why Generalists Triumph in a Specialized World (David Epstein)](https://www.amazon.com/Range-Generalists-Triumph-Specialized-World/dp/0735214484)
+- [ ] [Growth Mindset (Carol Dweck — TED Talk)](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
+- [ ] [Building a Second Brain (Tiago Forte)](https://buildingasecondbrain.com/) — knowledge management system
+
+### Collaboration & Emotional Intelligence
+
+AI Engineers rarely work alone. The best outcomes come from teams that communicate well, debate constructively, and trust each other.
+
+- [ ] [Emotional Intelligence 2.0 (Bradberry & Greaves)](https://www.amazon.com/Emotional-Intelligence-2-0-Travis-Bradberry/dp/0974320625)
+- [ ] [The Five Dysfunctions of a Team (Patrick Lencioni)](https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756)
+- [ ] [Radical Candor (Kim Scott)](https://www.radicalcandor.com/) — how to give and receive feedback well
+- [ ] [Non-Violent Communication (Marshall Rosenberg)](https://www.cnvc.org/learn-nvc/what-is-nvc) — conflict resolution
+- [ ] [How to Win Friends and Influence People (Carnegie)](https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034) — still relevant after 85 years
+- [ ] [Google's Project Aristotle: What makes the perfect team?](https://rework.withgoogle.com/print/guides/5721312655835136/) — psychological safety research
+
+### Ethics & Responsibility in the AI Era
+
+- [ ] [AI Ethics (fast.ai lesson)](https://ethics.fast.ai/)
+- [ ] [The Alignment Problem (Brian Christian)](https://www.amazon.com/Alignment-Problem-Machine-Learning-Values/dp/0393635821)
+- [ ] [Weapons of Math Destruction (Cathy O'Neil)](https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815) — how models can harm society
+- [ ] [AI Ethics course — deeplearning.ai](https://www.deeplearning.ai/short-courses/)
+- [ ] [Responsible AI practices — Google](https://ai.google/responsibility/responsible-ai-practices/)
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## deeplearning.ai Learning Path
+
+[deeplearning.ai](https://www.deeplearning.ai/) — founded by Andrew Ng — is the premier online destination for practical AI/ML education. The courses below represent a structured learning path from foundations to cutting-edge techniques. Most short courses are **free to audit**.
+
+### Foundational AI & ML
+
+- [ ] [Machine Learning Specialization (Andrew Ng — Coursera)](https://www.deeplearning.ai/courses/machine-learning-specialization/)
+    - Supervised learning, unsupervised learning, reinforcement learning fundamentals
+    - Best starting point for anyone new to ML
+- [ ] [Deep Learning Specialization (Andrew Ng — Coursera)](https://www.deeplearning.ai/courses/deep-learning-specialization/)
+    - Neural networks, CNNs, RNNs, optimization, structuring ML projects
+    - 5-course series — the gold standard deep learning curriculum
+- [ ] [Mathematics for Machine Learning and Data Science Specialization](https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization/)
+    - Linear algebra, calculus, probability and statistics for ML
+
+### Generative AI & LLMs
+
+- [ ] [Generative AI with Large Language Models (Coursera)](https://www.deeplearning.ai/courses/generative-ai-with-llms/)
+    - How LLMs work, fine-tuning, RLHF, deployment considerations
+- [ ] [ChatGPT Prompt Engineering for Developers (free short course)](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
+    - Written with OpenAI; covers prompt engineering techniques
+- [ ] [Building Systems with the ChatGPT API (free short course)](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/)
+- [ ] [LangChain for LLM Application Development (free short course)](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)
+    - Chains, agents, memory, retrieval with LangChain
+- [ ] [LangChain: Chat with Your Data (free short course)](https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/)
+    - Document loading, splitting, vector stores, RAG
+- [ ] [Building and Evaluating Advanced RAG (free short course)](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/)
+- [ ] [Finetuning Large Language Models (free short course)](https://www.deeplearning.ai/short-courses/finetuning-large-language-models/)
+- [ ] [Large Language Models with Semantic Search (free short course)](https://www.deeplearning.ai/short-courses/large-language-models-semantic-search/)
+- [ ] [Functions, Tools and Agents with LangChain (free short course)](https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/)
+- [ ] [AI Agents in LangGraph (free short course)](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/)
+- [ ] [Multi AI Agent Systems with crewAI (free short course)](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
+
+### MLOps & Deployment
+
+- [ ] [Machine Learning Engineering for Production (MLOps) Specialization](https://www.deeplearning.ai/courses/machine-learning-engineering-for-production-mlops/)
+    - 4-course series: ML in production, data lifecycle, model deployment, monitoring
+- [ ] [Evaluating and Debugging Generative AI (free short course)](https://www.deeplearning.ai/short-courses/evaluating-debugging-generative-ai/)
+    - Using Weights & Biases for LLM evaluation and debugging
+
+### Vision, NLP & Specialized Topics
+
+- [ ] [Natural Language Processing Specialization](https://www.deeplearning.ai/courses/natural-language-processing-specialization/)
+    - 4-course series covering NLP from basics to Transformer models
+- [ ] [How Diffusion Models Work (free short course)](https://www.deeplearning.ai/short-courses/how-diffusion-models-work/)
+    - Understand the models behind Stable Diffusion, DALL·E
+- [ ] [Pair Programming with a Large Language Model (free short course)](https://www.deeplearning.ai/short-courses/pair-programming-llm/)
+- [ ] [Understanding and Applying Text Embeddings (free short course)](https://www.deeplearning.ai/short-courses/google-cloud-vertex-ai/)
+- [ ] [Vector Databases: from Embeddings to Applications (free short course)](https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/)
+
+### AI for Everyone
+
+- [ ] [AI for Everyone (Andrew Ng — non-technical)](https://www.deeplearning.ai/courses/ai-for-everyone/)
+    - Understand AI's capabilities and limitations; communicate about AI with non-technical colleagues
+- [ ] [AI Python for Beginners (free short course)](https://www.deeplearning.ai/short-courses/ai-python-for-beginners/)
+    - Learn Python the AI-native way, using AI assistance from the start
+
+**[⬆ back to top](#table-of-contents)**
+
+---
 
 ## Let's Get Started
 
