@@ -1040,6 +1040,8 @@ When real data is scarce, expensive to label, or sensitive, synthetic data is th
 
 ---
 
+## AI-native SDLC & Spec-Driven Development
+
 In the AI era, the way software is built has fundamentally changed. AI Engineers are expected to work with **Spec-Driven Development** — defining what needs to be built precisely (in natural language or structured specs) before writing a single line of code, then using AI tools to accelerate implementation. This mirrors how senior engineers think: design first, code second.
 
 ### What is Spec-Driven Development?
@@ -2397,6 +2399,31 @@ Graphs can be used to represent many problems in computer science, so this secti
 - **Include Kaggle rankings** — even a silver medal shows you can compete on real data problems
 - **Show your stack**: Python, PyTorch/TensorFlow, MLflow/W&B, LangChain/LlamaIndex, FastAPI, Docker, AWS/GCP/Azure
 - **List target companies** you're interviewing at: OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, Cohere, Mistral, Stability AI, and major tech companies with AI teams
+
+**[⬆ back to top](#table-of-contents)**
+
+## Find a Job
+
+- [LinkedIn Jobs](https://www.linkedin.com/jobs/) — the primary job board for AI/ML roles; set alerts for "AI Engineer", "ML Engineer", "LLM Engineer"
+- [Levels.fyi](https://www.levels.fyi/jobs) — compensation-aware job board, great for comparing offers at AI companies
+- [Y Combinator Work at a Startup](https://www.workatastartup.com/) — direct access to YC-backed AI startups
+- [Hugging Face Jobs](https://huggingface.co/jobs) — ML/AI-specific roles
+- [RemoteML](https://remoteml.com/) — remote ML engineering jobs
+- [AngelList/Wellfound](https://wellfound.com/jobs) — startup AI/ML roles
+
+**Target companies for AI Engineers:**
+- **AI Labs:** OpenAI, Anthropic, Google DeepMind, Meta AI (FAIR), Microsoft Research, xAI
+- **AI-first companies:** Cohere, Mistral, Stability AI, Inflection, Adept, Character.AI
+- **AI infrastructure:** Hugging Face, Scale AI, Weights & Biases, Anyscale, Modal
+- **Big Tech AI teams:** Google (Search, Assistant, Gemini), Meta (AI), Microsoft (Copilot, Azure AI), Amazon (Alexa, AWS AI), Apple (Core ML)
+- **AI-powered verticals:** Waymo, Tesla Autopilot, Tempus (healthcare AI), Harvey (legal AI)
+
+**Job search tips for AI Engineers:**
+- Build in public — post projects on GitHub and LinkedIn before you start applying
+- Contribute to open-source ML repos (HuggingFace Transformers, LangChain, PyTorch) to get noticed
+- A Kaggle competition ranking, a published HuggingFace model, or a well-starred GitHub repo opens doors
+- Reach out directly to AI Engineers at target companies on LinkedIn — warm outreach beats cold applications
+- Attend AI meetups and conferences: NeurIPS, ICLR, PyData, local ML meetups
 
 **[⬆ back to top](#table-of-contents)**
 
