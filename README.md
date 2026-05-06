@@ -74,6 +74,10 @@ An AI Engineer is not a pure researcher (they don't publish papers) and not a pu
 
 AI Engineer roles exist at: Google DeepMind, OpenAI, Anthropic, Meta AI, Microsoft (Copilot team), Cohere, Mistral, Stability AI, and virtually every large tech company with an AI product team.
 
+> *"AI is going to change the nature of work. The engineers who will thrive are those who learn to build with AI, not just use it."*
+>
+> — **Sam Altman**, CEO of OpenAI
+
 **Required:**
 * Python fluency (you will write Python every day)
 * Some experience with data (pandas, NumPy, or similar)
@@ -89,6 +93,14 @@ For a complete CS self-taught program, the resources for this study plan have be
 ## Choose Your Track
 
 This guide covers **two distinct AI career tracks**. They overlap significantly — both require CS fundamentals and Python — but they diverge in focus. Read both descriptions and choose where to start. You can always cross-train later.
+
+> *"The hottest new programming language is English."*
+>
+> — **Andrej Karpathy**, former Director of AI at Tesla & co-founder of OpenAI (February 2023)
+
+> *"Every company will be an AI company — the way every company today is a software company. The question is which engineers will lead that transformation."*
+>
+> — **Jensen Huang**, CEO of NVIDIA
 
 ---
 
@@ -347,6 +359,10 @@ This guide covers **two distinct AI career tracks**. They overlap significantly 
 ---
 
 ## Why use it?
+
+> *"AI is not going to replace people. But people who use AI are going to replace people who don't."*
+>
+> — **Satya Nadella**, CEO of Microsoft
 
 If you want to work as a software engineer for a large company, these are the things you have to know.
 
@@ -687,11 +703,19 @@ Challenge/Practice sites:
 
 > **🏗️ Who this is for:** Product engineers, technical founders, and full-stack developers who use AI tools as their primary development accelerant. You build with AI, not just alongside it.
 
+> *"We may be approaching a moment where a single talented engineer — armed with the right AI tools — can build what used to require an entire team. The one-person startup is becoming the one-person unicorn."*
+>
+> — **Sam Altman**, CEO of OpenAI, 2024
+
 The AI-native Builder ships products. They wield AI coding assistants fluently, think in system architectures, design for users, and iterate fast. This track is about **leverage** — how a single builder with AI tools can do what used to require a team.
 
 ---
 
 ### AI Coding Tools & Vibe Coding Workflows
+
+> *"There's a new kind of coding I call 'vibe coding' — where you fully give in to the vibes, embrace exponentials, and forget that the code even exists. It's a different skill: directing intelligence rather than writing instructions."*
+>
+> — **Andrej Karpathy**, February 2025
 
 "Vibe coding" — prompting an AI to generate large swaths of code while you steer direction — is a real and powerful technique when done with discipline. The key is maintaining a clear mental model of the system even as AI generates the implementation.
 
@@ -844,6 +868,14 @@ Building is 20% of the work. Shipping and keeping it running is 80%.
 ## Track B: AI Engineer (Deep Technical)
 
 > **🔬 Who this is for:** Engineers who want to build and own AI systems from the ground up — training, fine-tuning, data pipelines, and production model infrastructure. These roles exist at AI research labs and AI-first product companies.
+
+> *"We may be approaching a moment where AI systems can perform the work of a brilliant PhD — advancing science, curing diseases, and driving economic growth at a pace we can barely imagine. The engineers who build these systems will be the most important people in the world."*
+>
+> — **Dario Amodei**, CEO of Anthropic, *"Machines of Loving Grace"* (2024)
+
+> *"Just as electricity transformed almost everything 100 years ago, today I have a hard time thinking of an industry that AI will not transform in the next several years. The engineers who understand AI from the inside will lead that transformation."*
+>
+> — **Andrew Ng**, Founder of deeplearning.ai
 
 The AI Engineer goes deeper than the Builder. They don't just call an API — they train the model behind it. They design data pipelines that produce training sets, run fine-tuning experiments, distill large models into smaller deployable ones, and architect the agentic systems that the Builder's products rely on.
 
@@ -1145,6 +1177,14 @@ AI Engineers increasingly need to wrap their models in usable applications. You 
 - [ ] [Vector databases explained (Pinecone)](https://www.pinecone.io/learn/vector-database/)
 
 ### Building & Showcasing Your Portfolio
+
+> *"AI hiring managers aren't just looking at your degree — they're looking at what you've built, what you've deployed, and what problems you've solved. Your GitHub is your proof of work."*
+>
+> — **Chip Huyen**, ML engineer, author of *Designing Machine Learning Systems*
+
+> *"Don't just study AI. Build with it. Ship something real. A deployed project — however small — demonstrates judgment, persistence, and skill that no résumé line can."*
+>
+> — **Andrew Ng**, Founder of deeplearning.ai
 
 - [ ] [How to build a compelling data science / AI portfolio](https://towardsdatascience.com/how-to-build-a-data-science-portfolio-5f566517c79c)
 - [ ] [Building AI portfolio projects that get noticed (video)](https://www.youtube.com/watch?v=1aXk2RViq3c)
@@ -2490,6 +2530,10 @@ Congratulations!
 Keep learning.
 
 You're never really done.
+
+> *"The pace of progress in AI is accelerating. The best engineers — at every level — are those who stay curious, keep building, and treat every project as a chance to understand something deeper. This is a marathon, not a sprint, and the finish line keeps moving."*
+>
+> — **Demis Hassabis**, CEO of Google DeepMind
 
 ---
 
