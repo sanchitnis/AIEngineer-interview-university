@@ -1,6 +1,8 @@
 
 # دانشنامه مصاحبه برنامه نویسی
 
+> **Note:** This study guide has been updated to target **AI Engineer** roles at companies like OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, and Cohere. The original software engineering content is preserved; new AI/ML sections have been added. See the [English README](../README.md) for the full updated guide.
+
 > من در ابتدا این لیست رو به عنوان یک لیست کوتاه از مجموعه موضوعات پژوهشی برای تبدیل شدن به یک مهندس نرم افزار ایجاد کردم، اما به فهرست بلند و بالایی که امروز میبینید تبدیل شد.
 > بعد از طی کردن این طرح, [به عوان مهندس توسعه نرم افزار در آمازون استخدام شدم](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
 > احتمالاً مجبور نخواهید بود به آن اندازه که من مطالطه کردم مطالعه کنید. به هر حال هر چیزی که نیاز داشته باشید در اینجا ذکر شده

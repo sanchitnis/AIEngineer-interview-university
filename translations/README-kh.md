@@ -1,5 +1,7 @@
 # មហាវិទ្យាល័យការសរសេរកូដសំរាប់ការសម្ភាសន៍ (Coding Interview University)
 
+> **Note:** This study guide has been updated to target **AI Engineer** roles at companies like OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, and Cohere. The original software engineering content is preserved; new AI/ML sections have been added. See the [English README](../README.md) for the full updated guide.
+
 
 ### បង្កើតដោយ: [@John Washam](https://github.com/jwasham)
 ### បកប្រែជាភាសារខ្មែរដោយ: [@Vortana Say](https://github.com/vsay01)

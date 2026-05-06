@@ -1,5 +1,7 @@
 # Tự ôn tập phỏng vấn về lập trình (Coding Interview University)
 
+> **Note:** This study guide has been updated to target **AI Engineer** roles at companies like OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, and Cohere. The original software engineering content is preserved; new AI/ML sections have been added. See the [English README](../README.md) for the full updated guide.
+
 Bản gốc:
 * [English](/README.md)
 

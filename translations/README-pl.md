@@ -1,5 +1,7 @@
 # Przygotowanie do rozmowy kwalifikacyjnej w Google - Coding Interview University
 
+> **Note:** This study guide has been updated to target **AI Engineer** roles at companies like OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, and Cohere. The original software engineering content is preserved; new AI/ML sections have been added. See the [English README](../README.md) for the full updated guide.
+
 > Pierwotnie stworzyłem ten projekt, jako krótką listę tematów do nauki, które warto poznać aby zostać Software Engineer,
 > ale powiększył się do dużej listy, którą widzisz dzisiaj. Po przejściu przez ten plan studiów [zostałem zatrudniony
 > jako Software Development Engineer w Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!

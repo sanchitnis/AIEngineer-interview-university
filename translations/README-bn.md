@@ -1,5 +1,7 @@
 # কোডিং সাক্ষাত্কার বিশ্ববিদ্যালয়
 
+> **Note:** This study guide has been updated to target **AI Engineer** roles at companies like OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, and Cohere. The original software engineering content is preserved; new AI/ML sections have been added. See the [English README](../README.md) for the full updated guide.
+
 > আমি এটি প্রথমে একটি সফটওয়্যার ইঞ্জিনিয়ার হওয়ার জন্য অধ্যয়নের বিষয়গুলির একটি স্বল্প-করণীয় তালিকা হিসাবে তৈরি করেছিলাম,
 > তবে এটি আজ আপনি যে বৃহত তালিকা দেখতে পাচ্ছেন তাতে রুপ নিয়েছে এই শিক্ষা পরিকল্পনাটি পেরিয়ে যাওয়ার পরে, [আমি নিয়োগ পেয়েছি
 > অ্যামাজনে সফটওয়্যার ডেভলপমেন্ট ইঞ্জিনিয়ার হিসাবে](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!

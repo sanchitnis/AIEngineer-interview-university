@@ -1,5 +1,7 @@
 # Kodering Onderhoud Universiteit
 
+> **Note:** This study guide has been updated to target **AI Engineer** roles at companies like OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, and Cohere. The original software engineering content is preserved; new AI/ML sections have been added. See the [English README](../README.md) for the full updated guide.
+
 > Ek het oorspronklik dié as 'n kort om-te-doen lys van studie onderwerpe om 'n sagteware ingenieur te word gemaak,
 > maar dit het gegroei tot die groot lys wat jy vandag sien. Nadat ek dié studieplan gevolg het, [het Amazon my
 > aangestel](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!

@@ -1,5 +1,7 @@
 # Кодтау сұхбат университеті
 
+> **Note:** This study guide has been updated to target **AI Engineer** roles at companies like OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, and Cohere. The original software engineering content is preserved; new AI/ML sections have been added. See the [English README](../README.md) for the full updated guide.
+
 > Мен мұны бастапқыда бағдарламалық жасақтама инженері болу үшін оқу тақырыптарының қысқаша тізімі ретінде жасадым,
 > бірақ ол бүгін көріп отырған үлкен тізімге дейін өсті. Осы оқу жоспарын орындағаннан кейін [мен жұмысқа қабылдандым
 > Amazon-да бағдарламалық жасақтаманы әзірлеу инженері ретінде](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!

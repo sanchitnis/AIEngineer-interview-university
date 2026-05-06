@@ -1,4 +1,6 @@
-# Coding Interview University
+# AI Engineer Interview University
+
+> **Note:** This study guide has been updated to target **AI Engineer** roles at companies like OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, and Cohere. The original software engineering content is preserved; new AI/ML sections have been added. See the [English README](../README.md) for the full updated guide.
 
 > 原先我為了成為一個軟體工程師而建立這份簡單的讀書主題清單(To-do list)，
 > 但這份To-do list儼然隨著時間成為了一個很長的清單。 [做完這份To-do list上的每個目標後，我成為了Amazon的工程師](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!

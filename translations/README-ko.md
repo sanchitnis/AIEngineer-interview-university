@@ -1,5 +1,7 @@
 # 코딩 면접 대학(Coding Interview University)
 
+> **Note:** This study guide has been updated to target **AI Engineer** roles at companies like OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, and Cohere. The original software engineering content is preserved; new AI/ML sections have been added. See the [English README](../README.md) for the full updated guide.
+
 > 이 글은 원래 제가 소프트웨어 엔지니어가 되기 위해 정리한 짧은 주제들이었습니다.
 > 그러나 지금은 보다시피 주제들이 굉장히 많아졌습니다. 아래 내용을 모두 습득한 후,
 > [저는 아마존에 소프트웨어 엔지니어로 채용되었습니다](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!

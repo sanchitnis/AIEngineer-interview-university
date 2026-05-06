@@ -1,5 +1,7 @@
 # کوڈنگ انٹرویو یونیورسٹی
 
+> **Note:** This study guide has been updated to target **AI Engineer** roles at companies like OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, and Cohere. The original software engineering content is preserved; new AI/ML sections have been added. See the [English README](../README.md) for the full updated guide.
+
 >میں نے اصل میں اسے سافٹ ویئر انجینئر بننے کے لیے مطالعے کے عنوانات کی ایک مختصر فہرست کے طور پر بنایا تھا، لیکن یہ اس بڑی فہرست تک پہنچ گئی جو آپ آج دیکھ رہے ہیں۔ اس مطالعاتی منصوبے سے گزرنے کے بعد ، [مجھے ایمیزون میں سافٹ ویئر ڈویلپمنٹ انجینئر کے طور پر ملازمت پر رکھا گیا ہے!](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
 > آپ کو شاید اتنا مطالعہ نہیں کرنا پڑے گا جتنا میں نے کیا تھا۔ بہرحال، آپ کی ضرورت کی ہر چیز یہاں ہے۔
 >

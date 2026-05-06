@@ -1,5 +1,7 @@
 # Universidade de Entrevista de Programação
 
+> **Note:** This study guide has been updated to target **AI Engineer** roles at companies like OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, and Cohere. The original software engineering content is preserved; new AI/ML sections have been added. See the [English README](../README.md) for the full updated guide.
+
 > Originalmente eu criei isso como uma pequena lista to-do (a fazer) de tópicos de estudo para se tornar um engenheiro de software, 
 > mas isso cresceu para este imenso acervo que você consulta hoje. Após passar por todo esse plano de estudo, [Eu fui contratado 
 > como Engenheiro de Desenvolvimento de Software na Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 

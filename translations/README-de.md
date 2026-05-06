@@ -1,4 +1,6 @@
-# Coding Interview University
+# AI Engineer Interview University
+
+> **Note:** This study guide has been updated to target **AI Engineer** roles at companies like OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, and Cohere. The original software engineering content is preserved; new AI/ML sections have been added. See the [English README](../README.md) for the full updated guide.
 
 > Ursprünglich habe ich dies als eine kurze To-do Liste von Studienthemen angefangen, um Softwareingenieur zu werden,
 > aber es ist zu der riesigen Liste herangewachsen, die man heute sehen kann. Nachdem ich diesen Lehrplan durchgezogen
