@@ -1,5 +1,7 @@
 # कोडिंग साक्षात्कार विद्यापीठ
 
+> **Note:** This study guide has been updated to target **AI Engineer** roles at companies like OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, and Cohere. The original software engineering content is preserved; new AI/ML sections have been added. See the [English README](../README.md) for the full updated guide.
+
 > मी प्रारंभिकपणे ह्या सॉफ्टवेअर इंजिनिअर बनण्याच्या अभ्यास विषयांची संक्षिप्त सूची म्हणून हे निर्माण केलं होतं,
 > परंतु ते आता आपण दिसतं असं मोठं सूची व्हायला वाढलं. या अभ्यास योजनेवर पास केल्यानंतर, [मी Amazon वर सॉफ्टवेअर विकास अभियंता म्हणून नोकरी मिळवली](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
 > आपल्याला असं अधिक अभ्यास करण्याची आवश्यकता नसेल. काहीही आपल्याला येऊ शकणार नाही म्हणून आम्ही दाखवणार आहोत.

@@ -53,6 +53,8 @@
 
 ## ¿Qué es esto?
 
+> **Note:** This study guide has been updated to target **AI Engineer** roles at companies like OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, and Cohere. The original software engineering content is preserved; new AI/ML sections have been added. See the [English README](../README.md) for the full updated guide.
+
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
 Este es mi plan de estudios de varios meses para pasar de ser un Desarrollador Web (Autodidacta, sin título) a un Ingeniero de Software para una gran compañía.

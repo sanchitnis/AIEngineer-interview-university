@@ -1,5 +1,7 @@
 # Coding Interview University #
 
+> **Note:** This study guide has been updated to target **AI Engineer** roles at companies like OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, and Cohere. The original software engineering content is preserved; new AI/ML sections have been added. See the [English README](../README.md) for the full updated guide.
+
 >**เดิมทีผมสร้างขึ้นเพื่อเป็นรายการที่ต้องทำสำหรับหัวข้อที่ต้องศึกษาเพื่อที่จะเป็นวิศวกรซอฟต์แวร์ แต่ว่ามันเติบโตขึ้นอย่างมากและมีหัวข้อต่างๆ มากมายอย่างที่คุณเห็นอยู่ทุกวันนี้
 หัวข้อต่างๆ นี้จะเป็นสิ่งที่ให้คุณเตรียมตัวสำหรับสัมภาษณ์งานสำหรับบริษัทซอฟต์แวร์รวมทั้งบริษัทซอฟต์แวร์ขนาดใหญ่ของโลกอย่างเช่น Amazon Facebook Google หรือ Microsoft **
 >

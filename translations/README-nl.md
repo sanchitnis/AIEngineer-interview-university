@@ -1,5 +1,7 @@
 # Codering Interview Universiteit
 
+> **Note:** This study guide has been updated to target **AI Engineer** roles at companies like OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, and Cohere. The original software engineering content is preserved; new AI/ML sections have been added. See the [English README](../README.md) for the full updated guide.
+
 > Ik heb dit oorspronkelijk gemaakt als een korte takenlijst met studieonderwerpen om een ​​software-ingenieur te worden,
 > maar het groeide uit tot de grote lijst die je vandaag ziet. Nadat ik dit studieplan had doorlopen, [werd ik aangenomen
 > als Software Development Engineer bij Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!

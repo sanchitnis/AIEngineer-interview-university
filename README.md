@@ -1,16 +1,19 @@
-# Coding Interview University
+# AI Engineer Interview University
 
-> I originally created this as a short to-do list of study topics for becoming a software engineer,
-> but it grew to the large list you see today. After going through this study plan, [I got hired
-> as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> You probably won't have to study as much as I did. Anyway, everything you need is here.
+> This study guide is a complete, self-paced curriculum for landing an **AI Engineer** role at a
+> top tech company — Google DeepMind, OpenAI, Anthropic, Meta AI, Microsoft AI, Cohere, Mistral, and beyond.
 >
-> I studied about 8-12 hours a day, for several months. This is my story: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+> AI Engineers sit at the intersection of software engineering and machine learning. They build
+> production ML systems, integrate LLMs into products, design data pipelines, and deploy models
+> at scale. This guide covers everything you need: classical CS foundations *and* the modern
+> ML/AI stack that interviewers at AI-first companies actually test.
 >
-> **Please Note:** You won't need to study as much as I did. I wasted a lot of time on things I didn't need to know. More info about that is below. I'll help you get there without wasting your precious time.
+> **Please Note:** Focus on the sections marked as required first. The optional sections are
+> genuinely optional — depth over breadth. I'll help you get there without wasting your precious time.
 >
-> The items listed here will prepare you well for a technical interview at just about any software company,
-> including the giants: Amazon, Facebook, Google, and Microsoft.
+> The items listed here will prepare you well for a technical interview at any AI-focused company,
+> including: OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, Cohere, Mistral, and the
+> traditional giants: Amazon, Google, Meta, and Microsoft.
 >
 > *Best of luck to you!*
 
@@ -57,20 +60,29 @@
 
 ## What is it?
 
-![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
+![AI Engineering - building intelligent systems at scale](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-This is my multi-month study plan for becoming a software engineer for a large company.
+This is a multi-month study plan for becoming an **AI Engineer** at a top technology company.
+
+**What does an AI Engineer actually do?**
+An AI Engineer is not a pure researcher (they don't publish papers) and not a pure software engineer (they don't just build CRUD apps). They:
+- Build, fine-tune, and deploy machine learning models in production
+- Integrate LLMs, embedding models, and generative AI into products
+- Design and maintain data pipelines and feature stores
+- Run experiments, evaluate model quality, and monitor models in production
+- Work across the ML stack: from data wrangling to inference optimization
+
+AI Engineer roles exist at: Google DeepMind, OpenAI, Anthropic, Meta AI, Microsoft (Copilot team), Cohere, Mistral, Stability AI, and virtually every large tech company with an AI product team.
 
 **Required:**
-* A little experience with coding (variables, loops, methods/functions, etc)
+* Python fluency (you will write Python every day)
+* Some experience with data (pandas, NumPy, or similar)
 * Patience
 * Time
 
-Note this is a study plan for **software engineering**, not frontend engineering or full-stack development. There are really
-super roadmaps and coursework for those career paths elsewhere (see https://roadmap.sh/ for more info).
+Note this is a study plan for **AI engineering**, not frontend engineering, full-stack web development, or pure ML research. It emphasizes the **Python ML ecosystem**, classical CS fundamentals still tested in interviews, and the modern AI/LLM stack.
 
-There is a lot to learn in a university Computer Science program, but only knowing about 75% is good enough for an interview, so that's what I cover here.
-For a complete CS self-taught program, the resources for my study plan have been included in Kamran Ahmed's Computer Science Roadmap: https://roadmap.sh/computer-science
+For a complete CS self-taught program, the resources for this study plan have been included in Kamran Ahmed's Computer Science Roadmap: https://roadmap.sh/computer-science
 
 ---
 
@@ -118,6 +130,42 @@ For a complete CS self-taught program, the resources for my study plan have been
     - [Generative AI & LLMs](#generative-ai--llms)
     - [MLOps & Deployment](#mlops--deployment)
     - [AI for Everyone](#ai-for-everyone)
+
+### AI/ML Core Knowledge
+
+- [Mathematics for AI](#mathematics-for-ai)
+    - [Linear Algebra](#linear-algebra)
+    - [Calculus & Optimization](#calculus--optimization)
+    - [Probability & Statistics](#probability--statistics)
+    - [Information Theory](#information-theory-for-ai)
+- [Machine Learning Fundamentals](#machine-learning-fundamentals)
+    - [Supervised Learning](#supervised-learning)
+    - [Unsupervised Learning](#unsupervised-learning)
+    - [Model Evaluation & Selection](#model-evaluation--selection)
+    - [Feature Engineering](#feature-engineering)
+    - [Evaluation Metrics](#evaluation-metrics)
+- [Deep Learning](#deep-learning)
+    - [Neural Network Fundamentals](#neural-network-fundamentals)
+    - [Training Techniques](#training-techniques)
+    - [CNNs](#cnns)
+    - [RNNs, LSTMs & GRUs](#rnns-lstms--grus)
+    - [Transformers & Attention](#transformers--attention)
+- [Large Language Models & Generative AI](#large-language-models--generative-ai)
+    - [LLM Architecture](#llm-architecture)
+    - [Pre-training & Fine-tuning](#pre-training--fine-tuning)
+    - [Prompting Techniques](#prompting-techniques)
+    - [RAG (Retrieval-Augmented Generation)](#rag-retrieval-augmented-generation)
+    - [LLM Agents](#llm-agents)
+    - [LLM Evaluation](#llm-evaluation)
+- [MLOps & AI Systems Engineering](#mlops--ai-systems-engineering)
+    - [ML Pipelines](#ml-pipelines)
+    - [Experiment Tracking](#experiment-tracking)
+    - [Model Serving](#model-serving)
+    - [Inference Optimization](#inference-optimization)
+    - [Model Monitoring](#model-monitoring)
+    - [Feature Stores](#feature-stores)
+    - [Vector Databases](#vector-databases)
+    - [Data Versioning](#data-versioning)
 
 ### Topics of Study
 
@@ -308,52 +356,35 @@ not just when a specific online course is in session.
 
 ## Choose a Programming Language
 
-You'll need to choose a programming language for the coding interviews you do,
-but you'll also need to find a language that you can use to study computer science concepts.
-
-Preferably the language would be the same, so that you only need to be proficient in one.
+**Python is the primary language for AI Engineers.** Use it for this study plan, for coding interviews at AI companies, and for all ML/data work.
 
 ### For this Study Plan
 
-When I did the study plan, I used 2 languages for most of it: C and Python
+Use **Python**. It is the lingua franca of machine learning and AI engineering:
+- Every major ML framework (PyTorch, TensorFlow, JAX, scikit-learn) has a Python API
+- Data manipulation with NumPy and pandas is expected knowledge
+- LLM tooling (LangChain, LlamaIndex, HuggingFace Transformers) is Python-native
+- Interviewers at AI companies expect fluency in Python idioms
 
-* C: Very low level. Allows you to deal with pointers and memory allocation/deallocation, so you feel the data structures
-    and algorithms in your bones. In higher-level languages like Python or Java, these are hidden from you. In day-to-day work, that's terrific,
-    but when you're learning how these low-level data structures are built, it's great to feel close to the metal.
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
-    - [The C Programming Language, 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - You don't need to go super deep in the book (or even finish it). Just get to where you're comfortable reading and writing in C.
-* Python: Modern and very expressive, I learned it because it's just super useful and also allows me to write less code in an interview.
+Familiarity with NumPy array operations and basic PyTorch tensor manipulation is a plus — you may be asked to implement ML primitives (e.g., a forward pass, a dot product attention) in Python.
 
-This is my preference. You do what you like, of course.
+**What about C?**
+C/C++ knowledge is *optional background* for AI Engineers. Understanding memory layout helps you reason about model inference performance, but you will not be asked to implement linked lists in C in an AI Engineer interview. Skip it unless you're curious.
 
-You may not need it, but here are some sites for learning a new language:
-- [Exercism](https://exercism.org/tracks)
-- [Codewars](http://www.codewars.com)
-- [HackerEarth](https://www.hackerearth.com/for-developers/)
-- [Scaler Topics (Java, C++)](https://www.scaler.com/topics/)
-- [Programiz PRO Community Challenges)](https://programiz.pro/)
+Learning resources:
+- [Exercism Python track](https://exercism.org/tracks/python)
+- [Python for Everybody (Coursera, free to audit)](https://www.coursera.org/specializations/python)
+- [Real Python](https://realpython.com/)
 
 ### For your Coding Interview
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
+Use **Python** for the coding portion of AI Engineer interviews. It is the most widely accepted language at AI companies and lets you write concise, readable solutions quickly:
 
-- C++
-- Java
-- Python
+- Python ✅ (primary recommendation)
+- C++ (accepted everywhere, useful if you're already strong in it)
+- Java (accepted, but less idiomatic for ML tasks)
 
-You could also use these, but read around first. There may be caveats:
-
-- JavaScript
-- Ruby
-
-Here is an article I wrote about choosing a language for the interview:
-[Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
-This is the original article my post was based on: [Choosing a Programming Language for Interviews](https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/)
-
-You need to be very comfortable in the language and be knowledgeable.
+You could also use JavaScript or Ruby, but Python is strongly preferred at AI-first companies.
 
 Read more about choices:
 - [Choose the Right Language for Your Coding Interview](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
@@ -364,45 +395,21 @@ Read more about choices:
 
 ## Books for Data Structures and Algorithms
 
-This book will form your foundation for computer science.
+Choose one Python-focused book to build your CS foundation. You'll be doing a lot of reading and coding.
 
-Just choose one, in a language that you will be comfortable with. You'll be doing a lot of reading and coding.
-
-### Python
+### Python (Recommended)
 
 - [Coding Interview Patterns: Nail Your Next Coding Interview](https://geni.us/q7svoz) (**Main Recommendation**)
-    - An insider’s perspective on what interviewers are truly looking for and why.
+    - An insider's perspective on what interviewers are truly looking for and why.
     - 101 real coding interview problems with detailed solutions.
     - Intuitive explanations that guide you through each problem as if you were solving it in a live interview.
-    - 1000+ diagrams to illustrate key concepts and patterns.	
+    - 1000+ diagrams to illustrate key concepts and patterns.
 
-### C
+### Optional (C / Java / C++)
 
-- [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
-    - Fundamentals, Data Structures, Sorting, Searching, and Graph Algorithms
-
-### Java
-
-Your choice:
-
-- Goodrich, Tamassia, Goldwasser
-    - [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-- Sedgewick and Wayne:
-    - [Algorithms](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - Free Coursera course that covers the book (taught by the authors!):
-        - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
-        - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
-
-### C++
-
-Your choice:
-
-- Goodrich, Tamassia, and Mount
-    - [Data Structures and Algorithms in C++, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
-- Sedgewick and Wayne
-    - [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
-    - [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
-
+- **C**: [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
+- **Java**: [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/) — Goodrich, Tamassia, Goldwasser
+- **C++**: [Data Structures and Algorithms in C++, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275) — Goodrich, Tamassia, Mount
 **[⬆ back to top](#table-of-contents)**
 
 ## Interview Prep Books
@@ -507,9 +514,13 @@ without lyrics and you'll be able to focus pretty well.
 
 These are prevalent technologies but not part of this study plan:
 
-- Javascript
-- HTML, CSS, and other front-end technologies
-- SQL
+- JavaScript, HTML, CSS, and other front-end technologies
+- SQL and relational databases (important, but a separate path)
+- Low-level C/assembly programming and pointer arithmetic (useful background, but not what AI Engineer interviews test — see optional CS Background appendix)
+
+What this guide *does* emphasize instead of low-level C:
+- Python and the ML ecosystem (NumPy, pandas, scikit-learn, PyTorch)
+- ML system design and production AI infrastructure
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -589,6 +600,12 @@ Challenge/Practice sites:
     - Created by Google engineers, this is also an excellent resource to hone your skills.
 - [Project Euler](https://projecteuler.net/)
     - very math-focused, and not really suited for coding interviews
+
+**AI/ML-specific practice sites:**
+- [Kaggle](https://www.kaggle.com/) — ML competitions and free datasets; a Kaggle rank is a strong portfolio signal
+- [HuggingFace Spaces](https://huggingface.co/spaces) — hands-on model experimentation and demos
+- [StrataScratch](https://www.stratascratch.com/) — SQL and ML interview problems from real companies
+- [LeetCode — Matrix / DP for sequence models](https://leetcode.com/tag/matrix/) — practice matrix operations and DP patterns relevant to ML algorithms
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -924,6 +941,331 @@ AI Engineers rarely work alone. The best outcomes come from teams that communica
     - Understand AI's capabilities and limitations; communicate about AI with non-technical colleagues
 - [ ] [AI Python for Beginners (free short course)](https://www.deeplearning.ai/short-courses/ai-python-for-beginners/)
     - Learn Python the AI-native way, using AI assistance from the start
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Mathematics for AI
+
+Strong mathematical foundations separate great AI Engineers from good ones. Focus on the topics below — interviewers at AI companies may probe these directly.
+
+### Linear Algebra
+
+Essential for understanding how neural networks process data, how embeddings work, and how dimensionality reduction operates.
+
+- [ ] [Essence of Linear Algebra (3Blue1Brown — visual intuition)](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2ZAgoSIREkZe0o)
+- [ ] [MIT 18.06: Linear Algebra (Gilbert Strang)](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)
+- [ ] **Key concepts:**
+    - Vectors, matrices, dot product, matrix multiplication
+    - Eigenvalues and eigenvectors
+    - Singular Value Decomposition (SVD)
+    - Principal Component Analysis (PCA) — understanding it geometrically
+    - Orthogonality, projections, least squares
+
+### Calculus & Optimization
+
+Backpropagation *is* the chain rule. You need to understand gradients deeply.
+
+- [ ] [Khan Academy: Multivariable Calculus](https://www.khanacademy.org/math/multivariable-calculus)
+- [ ] [CS231n Notes: Optimization](https://cs231n.github.io/optimization-1/)
+- [ ] **Key concepts:**
+    - Partial derivatives and gradients
+    - Chain rule → how backpropagation works
+    - Gradient descent and variants (SGD, momentum, Adam)
+    - Convex vs. non-convex optimization
+    - Learning rate and convergence
+
+### Probability & Statistics
+
+Critical for model evaluation, Bayesian reasoning, and understanding uncertainty.
+
+- [ ] [Statistics and Probability (Khan Academy)](https://www.khanacademy.org/math/statistics-probability)
+- [ ] [Think Stats (free book by Allen Downey)](https://greenteapress.com/thinkstats2/)
+- [ ] **Key concepts:**
+    - Probability distributions: Gaussian, Bernoulli, Categorical, Poisson
+    - Bayes' theorem and Bayesian reasoning
+    - Maximum Likelihood Estimation (MLE) and MAP estimation
+    - Hypothesis testing, p-values, confidence intervals
+    - A/B testing and statistical significance
+    - Central Limit Theorem
+
+### Information Theory for AI
+
+Directly relevant to loss functions and model evaluation.
+
+- [ ] [Visual Information Theory (Chris Olah)](https://colah.github.io/posts/2015-09-Visual-Information/)
+- [ ] **Key concepts:**
+    - Entropy and information content
+    - Cross-entropy loss — why it's used in classification
+    - KL divergence — used in VAEs, RLHF, and model distillation
+    - Mutual information
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Machine Learning Fundamentals
+
+This is table-stakes knowledge for any AI Engineer role. You must understand these concepts and be able to implement them.
+
+**Core resources:**
+- [ ] [Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow (Géron)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) — the main ML engineering book
+- [ ] [Machine Learning Specialization (Andrew Ng — Coursera, free to audit)](https://www.coursera.org/specializations/machine-learning-introduction)
+- [ ] [fast.ai Practical Deep Learning for Coders](https://course.fast.ai/)
+
+### Supervised Learning
+
+- [ ] Linear Regression: ordinary least squares, regularization (Ridge, Lasso)
+- [ ] Logistic Regression: binary and multiclass, sigmoid, softmax
+- [ ] Support Vector Machines: margin, kernel trick (intuition)
+- [ ] Decision Trees: splitting criteria (Gini, entropy), pruning
+- [ ] Ensemble methods:
+    - Random Forests: bagging, feature importance
+    - Gradient Boosting: XGBoost, LightGBM — widely used in production ML
+- [ ] **Implement from scratch:** logistic regression with gradient descent
+
+### Unsupervised Learning
+
+- [ ] k-Means clustering: initialization, convergence, choosing k (elbow method)
+- [ ] Hierarchical clustering: dendrograms, linkage criteria
+- [ ] DBSCAN: density-based, handles noise
+- [ ] Dimensionality reduction:
+    - PCA: when and why to use it
+    - t-SNE: visualization of high-dimensional data
+    - UMAP: faster and better for embeddings visualization
+
+### Model Evaluation & Selection
+
+- [ ] Train / validation / test splits — and why you need all three
+- [ ] k-Fold cross-validation
+- [ ] Bias-variance tradeoff — diagnosing overfitting vs. underfitting
+- [ ] Regularization techniques: L1 (Lasso), L2 (Ridge), dropout, early stopping
+- [ ] Hyperparameter tuning: grid search, random search, Bayesian optimization
+
+### Feature Engineering
+
+- [ ] Encoding categorical variables: one-hot, label encoding, target encoding
+- [ ] Normalization and standardization (when to use each)
+- [ ] Handling missing data: imputation strategies
+- [ ] Feature selection: filter, wrapper, and embedded methods
+- [ ] Feature scaling for distance-based models (k-NN, SVM, k-Means)
+
+### Evaluation Metrics
+
+Know when to use which metric and why accuracy alone is often misleading.
+
+- [ ] Classification: accuracy, precision, recall, F1, ROC curve, AUC
+- [ ] Regression: MAE, MSE, RMSE, R²
+- [ ] Ranking: NDCG, MRR, precision@k
+- [ ] NLP: BLEU, ROUGE, perplexity
+- [ ] Confusion matrix: TP, FP, FN, TN
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Deep Learning
+
+- **Core resources:**
+    - [ ] [Deep Learning (Goodfellow, Bengio, Courville — free online)](https://www.deeplearningbook.org/) — theoretical foundations
+    - [ ] [CS231n: Convolutional Neural Networks for Visual Recognition (Stanford)](http://cs231n.stanford.edu/)
+    - [ ] [fast.ai Practical Deep Learning for Coders, Part 1 & 2](https://course.fast.ai/)
+    - [ ] ["Attention Is All You Need" — Vaswani et al. 2017 (the Transformer paper)](https://arxiv.org/abs/1706.03762)
+
+### Neural Network Fundamentals
+
+- [ ] Forward pass: how activations flow through layers
+- [ ] Backward pass and backpropagation: chain rule in computational graphs
+- [ ] Activation functions: ReLU, sigmoid, tanh, GELU, softmax — when to use each
+- [ ] Loss functions: cross-entropy, MSE, contrastive loss, triplet loss
+- [ ] **Implement from scratch:** a simple 2-layer neural network with backprop (NumPy)
+
+### Training Techniques
+
+- [ ] Stochastic Gradient Descent and variants: momentum, RMSProp, Adam, AdamW
+- [ ] Learning rate scheduling: warmup, cosine annealing, reduce-on-plateau
+- [ ] Batch normalization: why it helps training stability
+- [ ] Dropout: training vs. inference behavior
+- [ ] Weight initialization: Xavier/Glorot, He initialization
+- [ ] Gradient clipping: when and why
+
+### CNNs
+
+- [ ] Convolution operation: filters, stride, padding, receptive field
+- [ ] Pooling: max pooling, global average pooling
+- [ ] Classic architectures: LeNet, AlexNet, VGG, ResNet, EfficientNet
+- [ ] Skip connections and why ResNets train deeper networks
+- [ ] Transfer learning: using pretrained CNNs for new tasks
+
+### RNNs, LSTMs & GRUs
+
+- [ ] Vanilla RNN: sequence modeling, vanishing gradient problem
+- [ ] LSTM: cell state, gates (input, forget, output)
+- [ ] GRU: simplified LSTM
+- [ ] Sequence-to-sequence models: encoder-decoder architecture
+- [ ] When to use RNNs vs. Transformers
+
+### Transformers & Attention
+
+This is the most important architecture to understand deeply for modern AI engineering.
+
+- [ ] Self-attention: queries, keys, values; scaled dot-product attention
+- [ ] Multi-head attention: why multiple heads help
+- [ ] Positional encoding: how position information is injected
+- [ ] Encoder-only (BERT-style), decoder-only (GPT-style), encoder-decoder (T5-style) — use cases for each
+- [ ] Layer normalization, feed-forward layers, residual connections
+- [ ] [ ] [Illustrated Transformer (Jay Alammar)](https://jalammar.github.io/illustrated-transformer/)
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Large Language Models & Generative AI
+
+This is the highest-signal section for modern AI Engineer roles. Companies like OpenAI, Anthropic, Google DeepMind, and Meta AI test this deeply.
+
+**Core resources:**
+- [ ] [Neural Networks: Zero to Hero (Andrej Karpathy)](https://karpathy.ai/zero-to-hero.html) — build GPT from scratch, highly recommended
+- [ ] [HuggingFace NLP Course (free)](https://huggingface.co/learn/nlp-course/)
+- [ ] [LLM Course by Maxime Labonne (free)](https://github.com/mlabonne/llm-course)
+
+### LLM Architecture
+
+- [ ] GPT-style (decoder-only): autoregressive generation, causal attention mask
+- [ ] BERT-style (encoder-only): bidirectional attention, MLM pre-training objective
+- [ ] T5-style (encoder-decoder): span corruption, seq2seq tasks
+- [ ] Tokenization: BPE, WordPiece, SentencePiece — how text becomes tokens
+- [ ] Scaling laws: how model size, data, and compute interact (Kaplan et al.)
+- [ ] Context window and its implications for memory and generation quality
+
+### Pre-training & Fine-tuning
+
+- [ ] Pre-training objectives: next token prediction (causal LM), masked LM
+- [ ] Instruction tuning: turning a base model into a chat assistant
+- [ ] RLHF (Reinforcement Learning from Human Feedback): reward model, PPO — how ChatGPT was aligned
+- [ ] Parameter-Efficient Fine-Tuning (PEFT):
+    - LoRA: low-rank adapters — modify a small number of parameters
+    - QLoRA: quantized LoRA — fine-tune large models on consumer GPUs
+    - Prefix tuning, prompt tuning
+
+### Prompting Techniques
+
+- [ ] Zero-shot prompting
+- [ ] Few-shot prompting: providing examples in the context
+- [ ] Chain-of-thought (CoT): asking the model to reason step by step
+- [ ] Self-consistency: sampling multiple CoT paths and taking the majority answer
+- [ ] Tool use / function calling
+- [ ] System prompts and prompt injection risks
+
+### RAG (Retrieval-Augmented Generation)
+
+Used in production at most AI companies to ground LLMs in external knowledge.
+
+- [ ] Why RAG: solving hallucination and knowledge cutoff problems
+- [ ] Document chunking strategies: fixed-size, sentence, semantic chunking
+- [ ] Embedding models: generating dense vector representations of text
+- [ ] Vector search: cosine similarity, approximate nearest neighbor (ANN)
+- [ ] Re-ranking: cross-encoder rerankers after first-stage retrieval
+- [ ] HyDE, multi-query retrieval, and other advanced RAG patterns
+- [ ] [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction) — leading RAG framework
+- [ ] [LlamaIndex Documentation](https://docs.llamaindex.ai/) — document-centric RAG
+
+### LLM Agents
+
+- [ ] ReAct pattern: Reasoning + Acting in interleaved steps
+- [ ] Tool use: web search, code interpreter, database queries
+- [ ] Planning: task decomposition, tree-of-thought
+- [ ] Multi-agent frameworks: AutoGen, CrewAI — agents collaborating to solve tasks
+- [ ] Memory in agents: short-term (context window), long-term (vector store, database)
+
+### LLM Evaluation
+
+- [ ] Perplexity: intrinsic measure of language model quality
+- [ ] HELM benchmark: holistic LLM evaluation across scenarios
+- [ ] MT-Bench: multi-turn conversation quality (GPT-4 as judge)
+- [ ] Human evaluation: A/B preference testing
+- [ ] Safety evaluation: bias, toxicity, prompt injection, jailbreaks
+- [ ] Alignment and RLHF metrics
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## MLOps & AI Systems Engineering
+
+Production AI systems fail in ways that pure ML models don't. This section covers the engineering discipline of keeping ML systems reliable at scale.
+
+**Core resources:**
+- [ ] [Designing Machine Learning Systems (Chip Huyen)](https://www.oreilly.com/library/view/designing-machine-learning/9781098107963/) — the definitive MLOps book
+- [ ] [Full Stack Deep Learning (free course)](https://fullstackdeeplearning.com/)
+- [ ] [Made With ML (free MLOps course)](https://madewithml.com/)
+
+### ML Pipelines
+
+- [ ] Data ingestion → preprocessing → training → evaluation → deployment as a repeatable, versioned pipeline
+- [ ] Pipeline orchestration: Apache Airflow, Prefect, Kubeflow Pipelines
+- [ ] Data validation: detecting schema drift and distribution shift in inputs
+- [ ] Reproducibility: seed management, environment pinning, determinism
+
+### Experiment Tracking
+
+- [ ] [MLflow](https://mlflow.org/): open-source tracking, model registry, project packaging
+- [ ] [Weights & Biases](https://wandb.ai/): experiment tracking, artifact management, sweeps
+- [ ] [DVC (Data Version Control)](https://dvc.org/): versioning data and models alongside code
+
+### Model Serving
+
+- [ ] REST APIs for inference: FastAPI, Flask — request batching
+- [ ] gRPC serving: lower latency for high-throughput inference
+- [ ] Serving frameworks: TorchServe, Triton Inference Server, BentoML, Ray Serve
+- [ ] Online vs. batch inference: real-time vs. offline scoring
+- [ ] Canary deployments and shadow mode
+
+### Inference Optimization
+
+Critical for cost reduction in production.
+
+- [ ] Quantization: INT8, FP16, BF16 — trading precision for speed/memory
+- [ ] Pruning: removing low-importance weights
+- [ ] Knowledge distillation: training smaller "student" models to mimic larger "teacher"
+- [ ] ONNX export: hardware-agnostic model format
+- [ ] TensorRT: NVIDIA's inference optimizer for GPU deployment
+- [ ] vLLM: PagedAttention for efficient LLM serving
+
+### Model Monitoring
+
+- [ ] Data drift: input distribution shift from training to production
+- [ ] Concept drift: the relationship between inputs and outputs changes over time
+- [ ] Prediction monitoring: tracking output distributions and anomalies
+- [ ] Alerting and automated retraining triggers
+- [ ] [Evidently AI](https://www.evidentlyai.com/): open-source model monitoring
+
+### Feature Stores
+
+- [ ] Offline features: computed from historical data, used in training
+- [ ] Online features: low-latency retrieval, used at inference time
+- [ ] Feature consistency: same feature logic between training and serving ("training-serving skew")
+- [ ] [Feast](https://feast.dev/): open-source feature store
+- [ ] Tecton: managed feature store
+
+### Vector Databases
+
+Essential for RAG systems, semantic search, and recommendation engines.
+
+- [ ] Why vector DBs: storing and querying embedding vectors at scale
+- [ ] FAISS: Facebook's library for efficient similarity search (in-memory)
+- [ ] Pinecone: managed vector DB service
+- [ ] Weaviate, Milvus, Qdrant: open-source alternatives
+- [ ] ANN algorithms: HNSW (Hierarchical Navigable Small World), IVF (Inverted File Index)
+- [ ] Filtering: combining vector search with metadata filters
+
+### Data Versioning
+
+- [ ] [DVC](https://dvc.org/): Git-like versioning for data and models
+- [ ] Delta Lake: ACID transactions on top of data lake storage
+- [ ] Apache Iceberg: open table format for huge analytics datasets
+- [ ] Lineage tracking: knowing where each training sample came from
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -1613,6 +1955,14 @@ Graphs can be used to represent many problems in computer science, so this secti
 - ["Step-by-step resume guide" by Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
     - Detailed guide on how to set up your resume from scratch, write effective resume content, optimize it, and test your resume
 
+**AI Engineer-specific resume tips:**
+- **Lead with projects, not job descriptions.** AI companies want to see what you built, not just where you worked.
+- **Quantify ML impact**: "Reduced model latency by 40% via INT8 quantization", "Improved recall@10 from 72% to 89% by adding re-ranker"
+- **Highlight open-source contributions** to ML repos (HuggingFace, PyTorch, LangChain, etc.)
+- **Include Kaggle rankings** — even a silver medal shows you can compete on real data problems
+- **Show your stack**: Python, PyTorch/TensorFlow, MLflow/W&B, LangChain/LlamaIndex, FastAPI, Docker, AWS/GCP/Azure
+- **List target companies** you're interviewing at: OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, Cohere, Mistral, Stability AI, and major tech companies with AI teams
+
 **[⬆ back to top](#table-of-contents)**
 
 ## Interview Process & General Interview Prep
@@ -1655,6 +2005,7 @@ Mock Interviews:
 Think of about 20 interview questions you'll get, along with the lines of the items below. Have at least one answer for each.
 Have a story, not just data, about something you accomplished.
 
+**Standard behavioral questions:**
 - Why do you want this job?
 - What's a tough problem you've solved?
 - Biggest challenges faced?
@@ -1667,6 +2018,18 @@ Have a story, not just data, about something you accomplished.
 - What was the hardest bug you faced at [job x / project y]?
 - What did you learn at [job x / project y]?
 - What would you have done better at [job x / project y]?
+
+**AI Engineer-specific behavioral/technical questions to prepare for:**
+- Walk me through a model you trained end-to-end: data, architecture, training, evaluation, deployment.
+- How did you decide which model architecture to use for [task]?
+- Tell me about a time your model performed worse in production than in evaluation. What happened and how did you fix it?
+- How would you handle a class imbalance problem in a production fraud detection system?
+- Describe your approach to debugging a suddenly degrading ML model in production.
+- What's your process for evaluating an LLM-based feature? How do you decide if it's good enough to ship?
+- How would you reduce the latency of an LLM inference endpoint by 5x with minimal accuracy loss?
+- How do you think about bias and fairness in an ML model you're building?
+- Walk me through how you would design a RAG pipeline for [use case].
+- Tell me about a trade-off you made between model accuracy and inference cost.
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -1714,6 +2077,25 @@ You're never really done.
 ## Additional Books
 
     These are here so you can dive into a topic you find interesting.
+
+### AI/ML Books (Highly Recommended for AI Engineers)
+
+- [Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow (Géron)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
+    - The main practical ML engineering book — covers the full Python ML stack
+- [Deep Learning (Goodfellow, Bengio, Courville — free online)](https://www.deeplearningbook.org/)
+    - Theoretical foundations of deep learning
+- [Designing Machine Learning Systems (Chip Huyen)](https://www.oreilly.com/library/view/designing-machine-learning/9781098107963/)
+    - Production ML/MLOps — essential reading for AI Engineers
+- [The Machine Learning Engineering (Burkov)](http://www.mlebook.com/)
+    - Practical ML engineering — free to read online
+- [Machine Learning System Design Interview (Aminian & Xu)](https://www.amazon.com/Machine-Learning-System-Design-Interview/dp/1736049127)
+    - Interview-focused ML system design
+- [Speech and Language Processing (Jurafsky & Martin — free online)](https://web.stanford.edu/~jurafsky/slp3/)
+    - NLP foundations — covers everything from n-grams to Transformers
+- [Pattern Recognition and Machine Learning (Bishop)](https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/)
+    - Advanced probabilistic ML theory (optional — for those who want depth)
+
+### Classic CS Books
 
 - [The Unix Programming Environment](https://www.amazon.com/dp/013937681X)
     - An oldie but a goodie
@@ -1769,7 +2151,7 @@ You're never really done.
 
 ## System Design, Scalability, Data Handling
 
-**You can expect system design questions if you have 4+ years of experience.**
+**You can expect system design questions if you have 4+ years of experience. For AI Engineer roles, expect ML system design questions.**
 
 - Scalability and System Design are very large topics with many topics and resources, since
       there is a lot to consider when designing a software/hardware system that can scale.
@@ -1878,6 +2260,33 @@ You're never really done.
         - [Design a recommendation system](http://ijcai13.org/files/tutorial_slides/td3.pdf)
         - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
         - [Design a cache system](https://web.archive.org/web/20220217064329/https://adayinthelifeof.nl/2011/02/06/memcache-internals/)
+
+### ML System Design
+
+For AI Engineer roles, you will encounter ML system design interviews. The framework:
+**Problem scoping → Data → Modeling → Evaluation → Deployment → Monitoring**
+
+**Resources:**
+- [ ] [Machine Learning System Design Interview (Aminian & Xu)](https://www.amazon.com/Machine-Learning-System-Design-Interview/dp/1736049127) — interview-focused
+- [ ] [Designing Machine Learning Systems (Chip Huyen)](https://www.oreilly.com/library/view/designing-machine-learning/9781098107963/) — production-focused
+- [ ] [ML System Design Primer (GitHub)](https://github.com/chiphuyen/machine-learning-systems-design)
+
+**Practice design problems:**
+- [ ] Design a **recommendation system** (YouTube, Netflix, Spotify)
+    - Candidate generation → scoring → re-ranking
+    - Two-tower model, collaborative filtering vs. content-based
+- [ ] Design a **search ranking system** (Google, Bing, e-commerce)
+    - Query understanding, document retrieval, learning-to-rank
+- [ ] Design a **fraud detection system**
+    - Real-time scoring, feature computation latency, class imbalance
+- [ ] Design a **content moderation system**
+    - Multi-modal (text + image), human-in-the-loop, precision vs. recall tradeoffs
+- [ ] Design a **semantic search system with RAG**
+    - Embedding pipeline, vector DB, chunking, reranking
+- [ ] Design an **LLM serving infrastructure**
+    - Low latency, high throughput, batching, KV cache, speculative decoding
+- [ ] Design a **feature store**
+    - Offline vs. online features, consistency, low-latency serving
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -2355,6 +2764,33 @@ Sit back and enjoy.
 
 ## Papers
 
+### Seminal AI/ML Papers (Required Reading for AI Engineers)
+
+These papers define the field. Every AI Engineer should be familiar with their contributions.
+
+- [2012: ImageNet Classification with Deep Convolutional Neural Networks (AlexNet — Krizhevsky et al.)](https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html)
+    - The paper that launched the deep learning revolution; showed CNNs could dominate image recognition
+- [2014: Generative Adversarial Nets (Goodfellow et al.)](https://papers.nips.cc/paper_files/paper/2014/hash/5ca3e9b122f61f8f06494c97b1afccf3-Abstract.html)
+    - Introduced GANs — generative models trained via adversarial play
+- [2015: Deep Residual Learning for Image Recognition (ResNet — He et al.)](https://arxiv.org/abs/1512.03385)
+    - Skip connections enabling training of very deep networks; now a standard building block
+- [2017: Attention Is All You Need (Vaswani et al.)](https://arxiv.org/abs/1706.03762)
+    - **The most important paper in modern AI** — introduced the Transformer architecture
+- [2018: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (Devlin et al.)](https://arxiv.org/abs/1810.04805)
+    - Bidirectional encoder pre-training; fine-tuning paradigm for NLP tasks
+- [2020: Language Models are Few-Shot Learners (GPT-3 — Brown et al.)](https://arxiv.org/abs/2005.14165)
+    - Scaling to 175B parameters; in-context learning without gradient updates
+- [2020: Scaling Laws for Neural Language Models (Kaplan et al.)](https://arxiv.org/abs/2001.08361)
+    - Power laws relating model size, data, and compute to loss; foundations of scaling strategy
+- [2020: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al.)](https://arxiv.org/abs/2005.11401)
+    - The RAG paper — combining retrieval with generation to ground language models
+- [2021: LoRA: Low-Rank Adaptation of Large Language Models (Hu et al.)](https://arxiv.org/abs/2106.09685)
+    - Efficient fine-tuning by injecting trainable low-rank matrices; now the dominant PEFT method
+- [2022: Training language models to follow instructions with human feedback (InstructGPT — Ouyang et al.)](https://arxiv.org/abs/2203.02155)
+    - RLHF for aligning LLMs to human intent; the technique behind ChatGPT
+
+### Classic CS Papers
+
 - [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
 - [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
     - [implemented in Go](https://godoc.org/github.com/thomas11/csp)
@@ -2364,22 +2800,19 @@ Sit back and enjoy.
     - mostly replaced by Cloud Dataflow?
 - [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
 - [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)
-- [2007: Dynamo: Amazon’s Highly Available Key-value Store](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)
+- [2007: Dynamo: Amazon's Highly Available Key-value Store](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)
     - The Dynamo paper kicked off the NoSQL revolution
 - [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
 - 2012: AddressSanitizer: A Fast Address Sanity Checker:
     - [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
     - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
-- 2013: Spanner: Google’s Globally-Distributed Database:
+- 2013: Spanner: Google's Globally-Distributed Database:
     - [paper](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
     - [video](https://www.usenix.org/node/170855)
 - [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
-- [2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
+- [2015: High-Availability at Massive Scale: Building Google's Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
 - [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
 - More papers: [1,000 papers](https://github.com/0voice/computer_expert_paper)
-
-**[⬆ back to top](#table-of-contents)**
-
 ## LICENSE
 
 [CC-BY-SA-4.0](./LICENSE.txt)

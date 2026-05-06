@@ -1,5 +1,7 @@
 # コーディング面接の大学
 
+> **Note:** This study guide has been updated to target **AI Engineer** roles at companies like OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft AI, and Cohere. The original software engineering content is preserved; new AI/ML sections have been added. See the [English README](../README.md) for the full updated guide.
+
 >私はもともとこれをソフトウェアエンジニアになるための短いトピックリストとして作成しましたが、
 >今日それは大きなリストに成長しました。この学習計画を経て、[私はAmazonで
 > ソフトウェアエンジニアとして雇われました！！](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)
