@@ -1340,7 +1340,7 @@ Não tem quadro branco em casa? Faz sentido. Eu sou um estranho e tenho um grand
 grande caderno de desenho de uma loja de arte. Você pode sentar no sofá e praticar. Esse é o meu "sofá de quadro branco".
 Eu adicionei a caneta na foto para comparação de dimensões. Se você usar uma caneta, você vai desejar que você pudesse apagar. Fica uma bagunça bem rápido.
 
- ![meu sofá de quadro branco](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
+ ![meu sofá de quadro branco](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
 Suplementar:
 

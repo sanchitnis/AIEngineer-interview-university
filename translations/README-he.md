@@ -203,8 +203,6 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 Print out a "[future Googler](https://github.com/jwasham/coding-interview-university/blob/main/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
 
-[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/coding-interview-university/blob/main/extras/future-googler.pdf)
-
 ## האם קיבלתי את העבודה?
 
 אני בתור כרגע. אני מקווה להתראיין בקרוב.
@@ -222,8 +220,6 @@ Print out a "[future Googler](https://github.com/jwasham/coding-interview-univer
 - טוויטר: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
 - גוגל+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
 - לינקדאין: [johnawasham](https://www.linkedin.com/in/johnawasham)
-
-![John Washam - Coding Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
 ## אל תרדגישו שאתם לא חכמים מספיק
 - Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
@@ -1310,7 +1306,7 @@ No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard.
 large drawing pad from an art store. You can sit on the couch and practice. This is my "sofa whiteboard".
 I added the pen in the photo for scale. If you use a pen, you'll wish you could erase. Gets messy quick.
 
-![my sofa whiteboard](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
+![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
 Supplemental:
 
