@@ -86,11 +86,65 @@ For a complete CS self-taught program, the resources for this study plan have be
 
 ---
 
+## Choose Your Track
+
+This guide covers **two distinct AI career tracks**. They overlap significantly — both require CS fundamentals and Python — but they diverge in focus. Read both descriptions and choose where to start. You can always cross-train later.
+
+---
+
+### 🏗️ Track A — AI-native Builder
+
+> *"I want to build products and systems using AI tools and LLMs as my primary accelerants."*
+
+**Who this is for:** Product engineers, full-stack developers, and technical founders who want to leverage AI tools (Claude Code, GitHub Copilot, Cursor, Windsurf, etc.) to ship AI-powered products fast. You think in systems: APIs, product flows, architecture diagrams. You don't need to train models from scratch — you orchestrate them.
+
+**Core skills:**
+- AI-assisted coding (vibe coding with guardrails, spec-driven development)
+- Product engineering: translating user needs → technical specs → shipped features
+- Systems architecture: designing robust, scalable AI product backends
+- LLM orchestration: prompt engineering, RAG, agents, tool use
+- Shipping: CI/CD, cloud deployment, observability
+
+**Sections to prioritize:**
+→ [Track A: AI-native Builder](#track-a-ai-native-builder) *(new dedicated section)*
+→ [AI-native SDLC & Spec-Driven Development](#ai-native-sdlc--spec-driven-development)
+→ [System Thinking & Software Architecture](#system-thinking--software-architecture)
+→ [LLM Agents](#llm-agents) + [RAG](#rag-retrieval-augmented-generation) + [Prompting Techniques](#prompting-techniques)
+→ [MLOps & AI Infrastructure](#mlops--ai-infrastructure)
+→ CS Fundamentals (data structures, algorithms, system design) — still tested in interviews
+
+---
+
+### 🔬 Track B — AI Engineer
+
+> *"I want to build the AI systems themselves — train models, fine-tune LLMs, architect agentic pipelines, and work on the hard technical problems."*
+
+**Who this is for:** Engineers who want to work directly on AI systems: fine-tuning language models, building agentic architectures, curating training data, running distillation pipelines, and owning the full model lifecycle from data collection to production. These are the roles at OpenAI, Anthropic, Google DeepMind, Meta AI Research, and similar organizations.
+
+**Core skills:**
+- Deep learning theory and practice (Transformers, training dynamics)
+- LLM fine-tuning: instruction tuning, RLHF, DPO, LoRA/QLoRA
+- Knowledge distillation: training smaller models to match larger ones
+- Data engineering: collection, cleaning, curation, synthetic data generation
+- Agentic AI systems: multi-step reasoning, tool use, memory, multi-agent orchestration
+- MLOps: experiment tracking, model serving, inference optimization
+
+**Sections to prioritize:**
+→ [Track B: AI Engineer (Deep Technical)](#track-b-ai-engineer-deep-technical) *(new dedicated section)*
+→ [Deep Learning](#deep-learning) + [Transformers & Attention](#transformers--attention)
+→ [Large Language Models & Generative AI](#large-language-models--generative-ai)
+→ [MLOps & AI Systems Engineering](#mlops--ai-systems-engineering)
+→ [Mathematics for AI](#mathematics-for-ai) — required foundation
+→ CS Fundamentals — required at all AI companies
+
+---
+
 ## Table of Contents
 
 ### The Study Plan
 
 - [What is it?](#what-is-it)
+- [Choose Your Track](#choose-your-track)
 - [Why use it?](#why-use-it)
 - [How to use it](#how-to-use-it)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
@@ -103,6 +157,24 @@ For a complete CS self-taught program, the resources for this study plan have be
 - [The Daily Plan](#the-daily-plan)
 - [Coding Question Practice](#coding-question-practice)
 - [Coding Problems](#coding-problems)
+
+### 🏗️ Track A — AI-native Builder
+
+- [Track A: AI-native Builder](#track-a-ai-native-builder)
+    - [AI Coding Tools & Vibe Coding Workflows](#ai-coding-tools--vibe-coding-workflows)
+    - [Product Engineering with AI](#product-engineering-with-ai)
+    - [Systems Architecture for AI Products](#systems-architecture-for-ai-products)
+    - [Orchestrating AI: Prompting, RAG & Agents for Builders](#orchestrating-ai-prompting-rag--agents-for-builders)
+    - [Shipping AI Products: Cloud, APIs & Observability](#shipping-ai-products-cloud-apis--observability)
+
+### 🔬 Track B — AI Engineer (Deep Technical)
+
+- [Track B: AI Engineer (Deep Technical)](#track-b-ai-engineer-deep-technical)
+    - [Agentic AI Systems](#agentic-ai-systems)
+    - [LLM Fine-tuning in Depth](#llm-fine-tuning-in-depth)
+    - [Knowledge Distillation](#knowledge-distillation)
+    - [Data Collection & Curation](#data-collection--curation)
+    - [Synthetic Data Generation](#synthetic-data-generation)
 
 ### AI Engineer Essentials
 
@@ -611,7 +683,368 @@ Challenge/Practice sites:
 
 ---
 
-## AI-native SDLC & Spec-Driven Development
+## Track A: AI-native Builder
+
+> **🏗️ Who this is for:** Product engineers, technical founders, and full-stack developers who use AI tools as their primary development accelerant. You build with AI, not just alongside it.
+
+The AI-native Builder ships products. They wield AI coding assistants fluently, think in system architectures, design for users, and iterate fast. This track is about **leverage** — how a single builder with AI tools can do what used to require a team.
+
+---
+
+### AI Coding Tools & Vibe Coding Workflows
+
+"Vibe coding" — prompting an AI to generate large swaths of code while you steer direction — is a real and powerful technique when done with discipline. The key is maintaining a clear mental model of the system even as AI generates the implementation.
+
+**AI Coding Assistants:**
+- [ ] [GitHub Copilot](https://github.com/features/copilot) — integrated into VS Code, JetBrains, Neovim; best for in-editor autocomplete and chat
+    - [ ] [GitHub Copilot Docs: Best Practices](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)
+- [ ] [Claude Code (Anthropic)](https://claude.ai/code) — agentic coding assistant that operates in your terminal; excellent at large refactors and multi-file tasks
+    - [ ] [Claude Code documentation](https://docs.anthropic.com/en/docs/claude-code/overview)
+    - Strengths: long context, follows complex instructions, strong at system design reasoning
+- [ ] [Cursor](https://www.cursor.com/) — VS Code fork with deep AI integration; `.cursorrules` for project-level context
+    - [ ] [Cursor docs: Context management](https://docs.cursor.com/)
+- [ ] [Windsurf (Codeium)](https://codeium.com/windsurf) — agentic IDE with Cascade multi-file editing
+- [ ] [Aider](https://aider.chat/) — open-source AI pair programmer in your terminal; integrates with any model
+- [ ] [Antigravity](https://www.antigravity.dev/) — AI-powered development environment for building full-stack AI apps
+- [ ] [Bolt.new](https://bolt.new/) / [v0 (Vercel)](https://v0.dev/) — generate full-stack web apps from a prompt
+
+**Effective vibe coding practices:**
+- [ ] Always start with a written spec before prompting — AI output quality is proportional to input clarity
+- [ ] Use a CLAUDE.md / .cursorrules / AGENTS.md file to encode project conventions into every session
+- [ ] Review every AI-generated change at the diff level — never merge code you haven't read
+- [ ] Ask AI to explain its reasoning, not just write code — "explain what you changed and why"
+- [ ] Use AI for scaffolding, boilerplate, and repetitive patterns; write critical business logic yourself
+- [ ] Version control with small, frequent commits — makes it easy to revert AI mistakes
+
+**Resources:**
+- [ ] [How to use Claude Code effectively (Anthropic blog)](https://www.anthropic.com/engineering/claude-code-best-practices)
+- [ ] [Prompt Engineering for Developers — deeplearning.ai (free)](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
+- [ ] [The Pragmatic AI Engineer (book)](https://pragprog.com/) — practical AI-assisted development
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+### Product Engineering with AI
+
+Product engineers translate user needs into shipped software. In the AI era, this means knowing how to evaluate whether an AI feature actually solves a user problem — not just whether it technically works.
+
+**Product thinking fundamentals:**
+- [ ] [Shape Up (Basecamp — free)](https://basecamp.com/shapeup) — how to scope and pitch product work
+- [ ] [Continuous Discovery Habits (Teresa Torres)](https://www.producttalk.org/continuous-discovery-habits/) — building a habit of user research
+- [ ] Writing clear product specs: user story → acceptance criteria → technical design
+- [ ] [The Product-Led Playbook (Kyle Poyar)](https://www.openviewpartners.com/product-led-growth/) — growth through product
+
+**Designing AI features:**
+- [ ] Identifying where AI adds value vs. where deterministic logic is better
+- [ ] Handling AI uncertainty: confidence scores, fallbacks, graceful degradation
+- [ ] Latency and UX: streaming responses, skeleton loading, optimistic UI
+- [ ] Setting user expectations: when to show "AI-generated" labels
+- [ ] Evaluation before launch: evaluating LLM output quality with golden test sets
+- [ ] A/B testing AI features: metrics that matter (task completion rate, not just engagement)
+
+**Building with LLM APIs:**
+- [ ] [OpenAI API quickstart](https://platform.openai.com/docs/quickstart)
+- [ ] [Anthropic API docs](https://docs.anthropic.com/)
+- [ ] [Google Gemini API](https://ai.google.dev/docs)
+- [ ] Structured outputs / JSON mode — reliable LLM output for downstream processing
+- [ ] Function calling / tool use — connecting LLMs to real-world actions
+- [ ] Rate limiting, retry logic, cost management in production
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+### Systems Architecture for AI Products
+
+AI-native products have architectural patterns distinct from traditional web apps. Understanding these patterns is how you make smart technical decisions before writing a single line of code.
+
+**Core AI product architecture patterns:**
+- [ ] **LLM + RAG pattern**: retrieval-augmented generation as a first-class architectural component
+    - Embedding pipeline, vector store, retrieval, re-ranking, generation
+- [ ] **Agentic loop pattern**: LLM + tool calls + memory + planning in a feedback loop
+- [ ] **Human-in-the-loop pattern**: where to insert human review checkpoints
+- [ ] **Cascade pattern**: cheap/fast model for initial filter → expensive model only when needed
+- [ ] **Offline + online split**: batch processing for non-real-time tasks; streaming for UX
+
+**Architecture decision skills:**
+- [ ] When to use a hosted API vs. self-hosted model (cost, latency, data privacy)
+- [ ] Stateless vs. stateful LLM sessions: session memory, conversation history management
+- [ ] Designing for observability: logging LLM inputs/outputs, tracing multi-step pipelines
+- [ ] Idempotency and retries in LLM pipelines: handling non-determinism gracefully
+- [ ] Schema design for AI-generated content: storing, versioning, and auditing outputs
+
+**Architectural thinking resources:**
+- [ ] [System Design Primer](https://github.com/donnemartin/system-design-primer) — foundational system design
+- [ ] [Building LLM Applications for Production (Chip Huyen)](https://huyenchip.com/2023/04/11/llm-engineering.html)
+- [ ] [LLM App Stack (a16z)](https://a16z.com/emerging-architectures-for-llm-applications/) — map of the LLM application ecosystem
+- [ ] [Emerging Architectures for LLM Applications](https://a16z.com/emerging-architectures-for-llm-applications/)
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+### Orchestrating AI: Prompting, RAG & Agents for Builders
+
+This is the practical side of working with LLMs in production — beyond the playground.
+
+**Prompt engineering for products:**
+- [ ] System prompt design: role, context, constraints, output format
+- [ ] Few-shot examples in system prompts for consistent behavior
+- [ ] Prompt versioning and change management
+- [ ] Guardrails: input/output validation, content moderation, PII detection
+- [ ] [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)
+- [ ] [Anthropic Prompt Library](https://docs.anthropic.com/en/prompt-library/)
+
+**RAG for builders:**
+- [ ] [LangChain quickstart](https://python.langchain.com/docs/get_started/quickstart) — the most popular RAG framework
+- [ ] [LlamaIndex quickstart](https://docs.llamaindex.ai/en/stable/getting_started/starter_example/) — document-centric RAG
+- [ ] Embedding models: OpenAI `text-embedding-3-small`, Cohere Embed, open-source (all-MiniLM, BGE)
+- [ ] Vector stores for builders: Pinecone (managed), Chroma (local dev), pgvector (Postgres extension)
+- [ ] Evaluating RAG quality: context recall, answer faithfulness, answer relevance
+
+**Agent frameworks for builders:**
+- [ ] [LangGraph](https://langchain-ai.github.io/langgraph/) — graph-based agent orchestration
+- [ ] [OpenAI Assistants API](https://platform.openai.com/docs/assistants/overview) — managed agent with threads and tools
+- [ ] [Anthropic's tool use guide](https://docs.anthropic.com/en/docs/tool-use)
+- [ ] [CrewAI](https://github.com/joaomdmoura/crewAI) — multi-agent collaboration framework
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+### Shipping AI Products: Cloud, APIs & Observability
+
+Building is 20% of the work. Shipping and keeping it running is 80%.
+
+**Deployment basics:**
+- [ ] [Vercel](https://vercel.com/docs) — easiest deployment for web AI apps (supports Python backends)
+- [ ] [Railway](https://railway.app/) — easy cloud deployment for backend services
+- [ ] [Fly.io](https://fly.io/docs/) — low-latency global edge deployment
+- [ ] Docker + Docker Compose — containerize your AI app for consistent deployments
+- [ ] Environment variables and secrets management — never hard-code API keys
+
+**API design for AI products:**
+- [ ] [FastAPI](https://fastapi.tiangolo.com/) — Python-native, async-first REST API framework
+- [ ] Streaming responses: Server-Sent Events (SSE) for real-time LLM output
+- [ ] Webhooks for async AI tasks (long-running inference)
+- [ ] Rate limiting, API keys, and basic auth
+
+**Observability for LLM apps:**
+- [ ] [LangSmith](https://smith.langchain.com/) — tracing and evaluation for LangChain apps
+- [ ] [Langfuse](https://langfuse.com/) — open-source LLM observability (traces, evals, cost tracking)
+- [ ] [Arize Phoenix](https://phoenix.arize.com/) — open-source AI observability
+- [ ] Logging LLM calls: what to log (prompt, completion, tokens, latency, model version, user id)
+- [ ] Cost monitoring: tracking per-user, per-feature LLM API spend
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Track B: AI Engineer (Deep Technical)
+
+> **🔬 Who this is for:** Engineers who want to build and own AI systems from the ground up — training, fine-tuning, data pipelines, and production model infrastructure. These roles exist at AI research labs and AI-first product companies.
+
+The AI Engineer goes deeper than the Builder. They don't just call an API — they train the model behind it. They design data pipelines that produce training sets, run fine-tuning experiments, distill large models into smaller deployable ones, and architect the agentic systems that the Builder's products rely on.
+
+---
+
+### Agentic AI Systems
+
+Modern AI products are increasingly *agentic* — models that reason over multiple steps, use tools, maintain memory, and collaborate with other agents to complete long-horizon tasks. Designing these systems requires deep understanding of failure modes, reliability patterns, and evaluation strategies.
+
+**Agentic architecture fundamentals:**
+- [ ] The agentic loop: Observe → Think → Act → Observe → ... (the core ReAct cycle)
+- [ ] Tool use and function calling: schema design, error handling, tool selection
+- [ ] Planning strategies:
+    - [ ] ReAct (Reasoning + Acting): interleaved thinking and action
+    - [ ] Plan-and-execute: upfront planning, then sequential execution
+    - [ ] Tree of Thought: branching exploration for complex reasoning tasks
+    - [ ] Reflection / self-critique: having the agent evaluate and revise its own output
+- [ ] Memory architectures:
+    - [ ] In-context (working memory): what fits in the context window
+    - [ ] External memory: vector store for episodic memory, key-value for structured facts
+    - [ ] Summarization memory: compress old context to extend effective memory
+- [ ] Multi-agent systems:
+    - [ ] Orchestrator–subagent patterns: a supervisor assigns tasks to specialist agents
+    - [ ] Peer collaboration: agents critique each other's outputs
+    - [ ] Parallelism: running independent subtasks concurrently
+    - [ ] Communication protocols: how agents pass structured messages
+
+**Reliability and safety for agents:**
+- [ ] Error recovery: what to do when a tool call fails or returns unexpected output
+- [ ] Infinite loop detection and maximum step limits
+- [ ] Human-in-the-loop checkpoints: when to pause and ask for confirmation
+- [ ] Sandboxing code execution agents: security implications of letting an LLM run code
+- [ ] Evaluation: measuring task completion rate, not just individual step quality
+
+**Resources:**
+- [ ] [LangGraph documentation](https://langchain-ai.github.io/langgraph/) — stateful, cyclical agent graphs
+- [ ] [AutoGen (Microsoft)](https://microsoft.github.io/autogen/) — multi-agent conversation framework
+- [ ] [Agents course — HuggingFace (free)](https://huggingface.co/learn/agents-course/)
+- [ ] [OpenAI Assistants and function calling docs](https://platform.openai.com/docs/assistants/overview)
+- [ ] ["Building Effective Agents" (Anthropic blog)](https://www.anthropic.com/research/building-effective-agents)
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+### LLM Fine-tuning in Depth
+
+Fine-tuning is the process of adapting a pre-trained model to a specific task or style using curated examples. Understanding this deeply — including when NOT to fine-tune — separates AI Engineers from API callers.
+
+**When to fine-tune (and when not to):**
+- [ ] Fine-tune when: consistent style/tone, domain-specific vocabulary, reducing prompt length at scale, improved latency vs. few-shot prompting
+- [ ] Don't fine-tune when: adding new knowledge (use RAG), one-off tasks, insufficient data
+
+**Full fine-tuning:**
+- [ ] Supervised Fine-Tuning (SFT): input–output pairs on instruction-following datasets
+- [ ] Dataset format: instruction/response pairs, system prompts, conversation threads
+- [ ] Training infrastructure: multi-GPU setup, gradient checkpointing, mixed precision (bf16/fp16)
+- [ ] Compute requirements: approximate VRAM needs by model size
+
+**Parameter-Efficient Fine-Tuning (PEFT) — go deep here:**
+- [ ] LoRA (Low-Rank Adaptation):
+    - Why it works: weight updates lie in a low-rank subspace
+    - Hyperparameters: rank (r), alpha (α), target modules
+    - Merging LoRA weights back into the base model for inference
+- [ ] QLoRA: 4-bit quantization (NF4) of the base model + LoRA adapters on top
+    - Enables fine-tuning 70B models on a single A100
+    - [QLoRA paper (Dettmers et al. 2023)](https://arxiv.org/abs/2305.14314)
+- [ ] Prefix tuning and prompt tuning — learnable soft prompts prepended to input
+- [ ] IA³ (Infused Adapter by Inhibiting and Amplifying Inner Activations)
+
+**Alignment fine-tuning:**
+- [ ] RLHF (Reinforcement Learning from Human Feedback):
+    - Step 1: SFT on demonstration data
+    - Step 2: Train a reward model on pairwise preference data
+    - Step 3: PPO to optimize the policy toward the reward model
+- [ ] DPO (Direct Preference Optimization): bypasses the reward model; train directly on preference pairs
+    - [DPO paper (Rafailov et al. 2023)](https://arxiv.org/abs/2305.18290)
+- [ ] ORPO, SimPO: newer alignment methods with fewer hyperparameters
+
+**Tooling:**
+- [ ] [HuggingFace TRL (Transformers Reinforcement Learning)](https://huggingface.co/docs/trl/) — SFT, DPO, PPO in one library
+- [ ] [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) — YAML-configured fine-tuning for LLMs
+- [ ] [LlamaFactory](https://github.com/hiyouga/LLaMA-Factory) — unified fine-tuning framework
+- [ ] [Unsloth](https://github.com/unslothai/unsloth) — 2x faster fine-tuning with less VRAM
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+### Knowledge Distillation
+
+Distillation trains a smaller *student* model to mimic a larger *teacher* model. The goal is to transfer capability into a model cheap enough to deploy at scale. This is a core technique at every AI company with inference cost pressure.
+
+**Types of distillation:**
+- [ ] **Response distillation (black-box):** train the student on outputs generated by the teacher
+    - Collect teacher completions on a diverse prompt distribution
+    - Fine-tune the student with SFT on teacher-generated data
+    - Simple to implement; widely used (Alpaca, Vicuna, Orca were built this way)
+- [ ] **Feature distillation (white-box):** student learns to match the teacher's internal representations
+    - Match intermediate hidden states, attention maps, or logits
+    - Requires access to teacher internals (open weights models like LLaMA, Mistral)
+    - Approaches: KD loss = cross-entropy(student logits, teacher soft labels) + task loss
+- [ ] **Speculative decoding:** use a small draft model to generate candidate tokens, teacher verifies — not distillation per se, but related inference optimization
+- [ ] **Self-distillation:** the model distills knowledge from its own larger outputs (chain-of-thought → direct answer)
+
+**Training signal choices:**
+- [ ] Hard labels vs. soft labels (temperature-scaled logits)
+- [ ] KL divergence as the distillation loss
+- [ ] Calibration: ensuring the student's confidence is well-calibrated, not just accurate
+
+**Practical considerations:**
+- [ ] Distribution mismatch: teacher and student may have different tokenizers
+- [ ] Capacity gap: very small students may fail to absorb large teacher knowledge
+- [ ] Data diversity: distillation quality is limited by the prompt distribution you sample
+
+**Resources:**
+- [ ] [Distilling Step-by-Step (Hsieh et al., 2023)](https://arxiv.org/abs/2212.10535) — distilling rationales, not just labels
+- [ ] [Orca: Progressive Learning from Complex Explanation Traces of GPT-4](https://arxiv.org/abs/2306.02707)
+- [ ] [HuggingFace TRL — KTO and DPO trainers](https://huggingface.co/docs/trl/) — includes distillation utilities
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+### Data Collection & Curation
+
+The quality of your training data determines the ceiling of your model. "Data-centric AI" — the practice of improving models by improving data rather than changing architecture — is now mainstream at every serious AI lab.
+
+**Data collection strategies:**
+- [ ] **Web scraping at scale:** Common Crawl, scrapy, playwright for JS-heavy sites; robots.txt compliance
+- [ ] **Crowdsourcing:** Amazon Mechanical Turk, Scale AI, Appen — for human-labeled data
+- [ ] **Expert annotation:** domain experts (medical, legal, code) for high-quality niche datasets
+- [ ] **Programmatic labeling:** [Snorkel](https://snorkel.ai/) — weak supervision with labeling functions
+- [ ] **Self-supervised signals:** using the data structure itself as a label (next token, masked token)
+- [ ] **Feedback loops:** collecting implicit signals (clicks, edits, thumbs up/down) from deployed products
+
+**Data curation and quality:**
+- [ ] Deduplication: exact dedup (hashing), near-dedup (MinHash/LSH), semantic dedup (embedding similarity)
+- [ ] Quality filtering: perplexity filtering, classifier-based filtering, heuristic rules (length, punctuation ratio)
+- [ ] Toxicity and PII filtering: off-the-shelf classifiers, regex patterns, named entity redaction
+- [ ] Data mixture and weighting: how to balance sources (web data vs. books vs. code vs. conversations)
+- [ ] Dataset documentation: data cards, model cards — provenance and licensing
+
+**Data formats for LLM training:**
+- [ ] Pre-training: raw text corpora (The Pile, RedPajama, DCLM), packed sequences
+- [ ] Instruction tuning: ShareGPT format, Alpaca format, OpenAI chat format
+- [ ] Preference data: pairwise comparison format (chosen/rejected), Bradley-Terry model
+
+**Tools and datasets:**
+- [ ] [Argilla](https://argilla.io/) — open-source data annotation and curation platform
+- [ ] [Label Studio](https://labelstud.io/) — flexible annotation tool for any data type
+- [ ] [HuggingFace Datasets](https://huggingface.co/docs/datasets/) — library + hub for ML datasets
+- [ ] [DataComp](https://www.datacomp.ai/) — benchmark for data curation pipelines
+- [ ] [The Pile](https://pile.eleuther.ai/) — diverse open-source pre-training corpus
+- [ ] [OpenHermes](https://huggingface.co/datasets/teknium/OpenHermes-2.5) — large instruction-tuning dataset
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+### Synthetic Data Generation
+
+When real data is scarce, expensive to label, or sensitive, synthetic data is the answer. Modern AI labs generate billions of synthetic training examples to complement human-curated data.
+
+**Why synthetic data:**
+- [ ] Augmenting rare classes or edge cases in training distributions
+- [ ] Generating instruction-following data without human annotators
+- [ ] Privacy-preserving: generating statistically similar data without real user data
+- [ ] Scaling data for distillation: teacher model generates completions for student training
+
+**Techniques:**
+
+*LLM-based generation:*
+- [ ] Prompt an LLM to generate Q&A pairs, instructions, chain-of-thought reasoning traces
+- [ ] Self-instruct: use the LLM to generate its own training data from a small seed set
+    - [ ] [Self-Instruct paper (Wang et al., 2022)](https://arxiv.org/abs/2212.09561)
+- [ ] Persona-driven generation: generate diverse data by varying the persona in the prompt
+- [ ] Backtranslation: generate questions from answers, instructions from solutions
+- [ ] Constitutional AI (CAI): use a model to critique and revise its own outputs iteratively
+    - [ ] [Constitutional AI paper (Anthropic, 2022)](https://arxiv.org/abs/2212.08073)
+
+*Code and structured data:*
+- [ ] Generating code with tests: generate function + unit tests, verify with a code executor
+- [ ] Math problem generation: template-based generation + symbolic solvers for verification
+- [ ] Schema-constrained generation: use JSON schema or grammar constraints for structured output
+
+*Quality control for synthetic data:*
+- [ ] Reward model filtering: score synthetic examples with a trained reward model; keep top-k
+- [ ] Consistency checks: verify generated answers against ground truth (for math, code)
+- [ ] Diversity sampling: embedding-based deduplication to avoid repetitive patterns
+- [ ] Human spot-checking: random sample audits before adding to training set
+
+**Resources:**
+- [ ] [Phi-1 (Microsoft)](https://arxiv.org/abs/2306.11644) — "textbooks are all you need"; high-quality synthetic code
+- [ ] [Magpie: Alignment Data Synthesis from Scratch (2024)](https://arxiv.org/abs/2406.08464) — generating preference data at scale
+- [ ] [DataDreamer](https://datadreamer.dev/) — Python library for programmatic dataset generation with LLMs
+- [ ] [Evol-Instruct](https://arxiv.org/abs/2304.12244) — evolving instructions to increase complexity (WizardLM)
+
+**[⬆ back to top](#table-of-contents)**
+
+---
 
 In the AI era, the way software is built has fundamentally changed. AI Engineers are expected to work with **Spec-Driven Development** — defining what needs to be built precisely (in natural language or structured specs) before writing a single line of code, then using AI tools to accelerate implementation. This mirrors how senior engineers think: design first, code second.
 
