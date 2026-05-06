@@ -558,6 +558,19 @@ There are many resources for this, listed below. Keep going.
 There are a lot of distractions that can take up valuable time. Focus and concentration are hard. Turn on some music
 without lyrics and you'll be able to focus pretty well.
 
+### 5. How to Do Well in Your Courses (Advice by Andrej Karpathy)
+
+Andrej Karpathy — creator of the "Neural Networks: Zero to Hero" course series and former Director of AI at Tesla — wrote a concise guide on how to get the most out of your courses:
+[Doing well in your courses](https://cs.stanford.edu/people/karpathy/advice.html)
+
+Key takeaways:
+- **Sleep and spaced repetition beat cramming** — start material early and revisit it across multiple sessions
+- **Practice reproduction, not just reading** — re-derive concepts, re-implement code from memory; recognition is not the same as understanding
+- **Use office hours and study groups** — teaching peers is one of the most effective ways to solidify knowledge
+- **Review past exams and do exercises** — understanding the types of questions asked is more useful than re-reading notes
+- **Don't chase perfect grades** — aim "good enough" and invest surplus time in projects, research, and building relationships with mentors
+- **Be strategic** — identify high-value topics and high-point questions; depth on fewer things beats shallow coverage of everything
+
 **[⬆ back to top](#table-of-contents)**
 
 ## What you won't see covered
